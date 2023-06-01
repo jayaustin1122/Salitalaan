@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue2"
+    tools:context=".Panitikan.AngAmaFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgBookCover"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/angama"
+        android:scaleType="fitXY"
+        android:translationZ="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/bglogin2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="Magkahalo lagi ang takot at "/>
+                        <TextView
+                            android:id="@+id/pananabik"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="pananabik"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text=" kapag hinihintay ng mga bata ang kanilang ama. Ang takot ay sa alaala ngisang lasing na suntok sa bibig na nagpapatulo ng dugo at nagpapamaga ng ilang araw sa labi. Ang pananabik ay sa pagkain na paminsan-minsa'y inuuwi ng ama -malaking supot ng mainit na pansit na iginisa sa itlog at gulay. Ang totoo, para sa sarili lang niya ang iniuuwingpagkain ng ama, lamang ay napakarami nito upang maubosniya nang mag-isa; pagkatapos ay naroong magkagulo satira ang mga bata na kanina pa aali-aligid sa mesa. Kundi sa pakikialam ng ina namabigyan ng kaniya-kaniyang parte ang lahat - kahit ito'y sansubo lang ng masarapna pagkain, sa mga pinakamatanda at malakas na bata lamang mapupunta ang lahat, at ni"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/katiting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="katiting "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="ay walang maiiwan sa maliliit."/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/medium"
+                        android:text="\nAnim lahat ang mga bata. Ang dalawang pinakamatanda ay isang lalaki, dose anyos, at isang babae, onse; matatapang ang mga ito kahit na payat, at nagagawang sila lang lagi ang maghati sa lahat ng bagay kung wala ang ina, upang tiyaking may parte rin ang maliliit. May dalawang lalaki, kambal, na nuwebe anyos,isang maliit na babae, otso anyos at isang dos anyos na paslit pa, katulad ng iba, aymaingay na naghahangad ng marapat niyang parte sa mga pinag-aagawan."/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/medium"
+                        android:text="\nNatatandaan ng mga bata ang isa o dalawang okasyon na sinorpresa sila ng ama ng kaluwagang-palad nito - sadyang nag-uwi ito para sa kanila ng dalawang supot na puno ng pansit "/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="guisado, at masaya nilang "/>
+                        <TextView
+                            android:id="@+id/pinagsaluhan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="pinagsaluhan"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/medium"
+                        android:text="ang pagkain nahirap nilang ubusin. Kahit na ang ina nila'y masayang nakiupo sa kanila't kumain ngkaunti."/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/medium"
+                        android:text="\nPero hindi na naulit ang masayang okasyong ito, at ngayo'y hindi nag-uuwi ng pagkain ang ama; ang katunaya'y ipinapalagay ng mga batang mapalad sila kung hindi ito umuuwing lasing at nanggugulpi ng kanilang ina. Sa kabila niyo'y umaasapa rin sila, at kung gising pa sila pag-uwi sa gabi ng ama, naninipat ang mga matang titingnan nila kung may brown na supot na nakabitin sa tali sa mga daliri nito. Kung umuuwi itong pasigaw-sigaw at padabog-dabog, tiyak na walang pagkain, at ang mga bata'y magsisiksikan, takot na anumang ingay na gawa nila ay makainis sa ama at umakit sa malaking kamay nito upang pasuntok na dumapo sa kanilang mukha. Madalas na masapok ang mukha ng kanilang ina; madalas iyong marinig ng mga"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="bata na humi"/>
+                        <TextView
+                            android:id="@+id/hikbi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="hikbi "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="sa mga gabing tulad nito,"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/medium"
+                        android:text="nito, at kinabukasan ang mga pisngi at mata niyon ay mamamaga, kaya mahihiya itong lumabas upang maglaba sa malalaking bahay na katabi nila. Sa ibang mga gabi, hindi paghikbi ang maririnig ng mga bata mula sa kanilang ina, kundi isang uri ng pagmamakaawa at ninenerbiyos na pagtawa "/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="at malakas na "/>
+                        <TextView
+                            android:id="@+id/bulalas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="bulalas "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="na pag-ungol mula"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/medium"
+                        android:text="sa kanilang ama at sila'ymagtatanong kung ano ang ginagawa nito.
+Kapag umuuwi ang ama ng mas gabi kaysa dati at mas lasing kaysa dati,may pagkakataong ilalayo ng mga bata si Mui Mui. Ang dahila'y si Mui Mui, otso anyos at sakitin at palahalinghing na parang kuting, ay madalas kainisan ng ama. Uhugin, pangiwi-ngiwi, ito ay"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="mahilig magtuklap ng "/>
+                        <TextView
+                            android:id="@+id/langib"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="langib "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="sa galis"/>
+                    </LinearLayout>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="na nagkalat sa kaniyang mga binti, na nag-"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="iiwan ng mapula-pulang mga "/>
+                        <TextView
+                            android:id="@+id/patse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="patse"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/medium"
+                        android:text="@string/b"/>
+
+                    <TextView
+                        android:id="@+id/halinghing"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:fontFamily="@font/medium"
+                        android:text="halinghing"/>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="@string/a"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/nakabubulahaw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="nakabubulahaw "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="na sisigaw, at kung hindi pa "/>
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text=" iyon huminto, ito'y tatayo, lalapit sa bata at hahampasin iyon nangbuong lakas. Pagkatapos ay haharapin nito at papaluin din ang ibang bata na satingin nito, sa kabuuan, ay ang sanhi ng kaniyang kabuwisitan."/>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="\nNoong gabing umuwi ang ama na masamang-masama ang timpla dahil nasisante sa kaniyang trabaho sa lagarian, si Mui Mui ay nasa gitna ng isang mahahabang halinghing at hindi mapatahan ng dalawang pinakamatandang bata gayung binalaan nilang papaluin ito. Walang ano-ano, ang kamao ng ama ay bumagsak sa nakangusong mukha ng bata na tumalsik sa kabila ng kuwarto, kung saan ito nanatiling walang kagalaw-galaw. Mabilis na naglabasan ng bahay ang ibang mga bata sa inaasahang gulo. Nahimasmasan ng ina ang bata sa pamamagitan ng malamig na tubig."/>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="\nPero pagkaraan ng dalawang araw, si Mui Mui ay namatay, at ang ina lamang
+ang umiyak habang ang bangkay ay inihahandang ilibing sa sementeryo ng nayon may isang kilometro ang layo roon sa tabi ng"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/gulod"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="gulod. "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text=" Ilan sa taganayon nanakatatanda sa "/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="sakiting bata ay dumating upang makiramay. Sa ama na buong araw na nakaupong "/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="nagmu"/>
+
+                        <TextView
+                            android:id="@+id/mukmok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="mukmok."/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="ay doble ang kanilang"/>
+                    </LinearLayout>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="pakikiramay dahil alam nilang nawalan ito ng "/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="trabaho. Nangolekta ng "/>
+
+                        <TextView
+                            android:id="@+id/abuloy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="abuloy "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="ang isang"/>
+                    </LinearLayout>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text=" babae at pilit niya itong inilagay sa mga palad ng ama na di-kawasa, puno ng awa sa sarili, ay nagsimulang humagulgol. Ang balita tungkol sa malungkot niyang kinahinatnan ay madaling nakarating sa kaniyang amo, isang matigas ang loob pero mabait na tao, na noon di'y nagdesisyong kunin siya uli, para sa kapakanan ng kaniyang asawa at mga anak. Dala ng kagandahang-loob, ito ay nagbigay ng sariling pakikiramay, kalakipang munting abuloy (na minabuti nitong iabot sa asawa ng lalaki imbes sa lalakimismo). Nang makita niya ang dati niyang amo at marinig ang magaganda nitong sinabi bilang pakikiramay sa pagkamatay ng kaniyang anak, ang lalaki ay napaiyak at kinailangang muling libangin."/>
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="\nNgayo'y naging napakalawak ang kaniyang awa sa sarili bilang isang malupit na inulilang ama na ipinaglalamay ang wala sa panahong pagkamatay ng kaniyang dugo at laman. Mula sa kaniyang awa sa sarili ay bumulwak ang wagas napagmamahal sa patay na bata, kaya madalamhati siyang nagtatawag, Kaawa-awakong Mui Mui! Kaawa-awa kong anak! Nakita niya ito sa libingan sa tabi ng gulod -payat, maputla, at napakaliit - at ang mga alon ng lungkot at awa na nagpayanig sa matipuno niyang mga balikat at brasong kayumanggi ay nakakatakot tingnan. Pinilit siyang aluin ng mga kapit-bahay, na ang iba'y lumayo na may luha sa mga mata at bubulong-bulong,Maaring lasenggo nga siya at iresponsable, pero tunay na mahal niya ang bata"/>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="\nTinuyo ng nagdadalamhating ama ang kaniyang mga luha at saka tumayo.Mayroong siyang naisip. Mula ngayon, magiging mabuti na siyang ama. Dinukot niyasa bulsa ang perang ibinigay ng kaniyang amo sa asawa (na kiming iniabot namanito agad sa kaniya, tulad ng nararapat). Binilang niya ang "/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/papel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="papel-de-bangko. "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="Isa mandito ay hindi niya"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text=" gagastusin sa alak. Hindi na kailanman. Matibay ang pasiya nalumabas siya ng bahay. Pinagmasdan siya ng mga bata. Saan kayo pupunta, tanong nila. Sinundan nila ito ng tingin. Papunta ito sa bayan. Nalungkot sila, dahil tiyak nilana uuwi itong dalang muli ang mga bote ng beer."/>
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="\nPagkalipas ng isang oras, bumalik ang ama. May bitbit itong malaking supot na may mas maliit na supot sa loob. Inilapag nito ang dala sa mesa. Hindi makapaniwala ang mga bata sa kanilang nakita, pero iyon ba'y kahon ng mga tsokolate? Tumingin silang mabuti. May supot ng ubas at isang kahon yata ng biskwit. Nagtaka ang mga bata kung ano nga ang laman niyon. Sabi ng pinakamatandang lalaki'y biskwit; nakakita na siyang maraming kahon tulad niyon sa tindahan ni Ho Chek sa bayan. Ang giit naman ng pinakamatandang babae ay kendi,'yong katulad ng minsa'y ibinigay nila ni Lau Soh, na nakatira roon sa malaking bahay na pinaglalabhan ng nanay. Ang kambal ay nagkasiya sa pandidilat at pagngisi sa pananabik; masaya na sila ano man ang laman niyon. Kaya nagtalo at nang hula ang mga bata. Takot na hipuin ang yaman na walang senyas sa ama. Inip silang lumabas ito ng kaniyang kuwarto."/>
+
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="\nDi nagtagal ay lumabas ito, nakapagpalit nang damit, at dumiretso sa mesa.Hindi dumating ang senyas na"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="nagpa"/>
+                        <TextView
+                            android:id="@+id/pahintulot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="pahintulot "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="sa mga batang ilapat"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:text="ang mga kamay sa pinag-iinteresang yaman. Kinuha nito ang malaking supot at muling lumabas ng bahay. Hindi matiis na mawala sa mata ang yaman na wari'y kanila na sana, nagbulungan ang dalawang pinakamatanda nang matiyak na hindi sila maririnig ng ama. Tingnan natin kung saan siya pupunta. Nagpumilit na sumama ang kambal at ang apat ay sumunod nang malayo-layo sa ama. Sa karaniwang pagkakataon, tiyak na makikita sila nito at sisigawang bumalik sa bahay, pero ngayo'y nasa isang bagay lamang ang isip nito at hindi man lang sila napuna.\nDumating ito sa libingan sa tabing gulod. Kahuhukay pa lamang ng puntod na kaniyang hinintuan. Lumuhod at dinukot ang mga laman ng supot na dahan-dahang inilapag sa puntod, habang pahikbing nagsalita, Pinakamamahal kong anak, walang maiaalay sa iyo ang iyong ama kundi ang mga ito. Sana'y tanggapin mo.\nNagpatuloy itong nakipag-usap sa anak, habang nagmamasid sa pinagkukublihang mga halaman ang mga bata. Madilim na ang langit at ang maitim na ulap ay nagbabantang mapunit anumang saglit, pero patuloy sa pagdarasal at pag-iyak ang ama. Naiwan sa katawan ang basang kamisadentro. Sa isang iglap, ang kanina pang inip na inip na mga bata ay dumagsa sa yaman. Sinira ng ulan ang malakingbahagi niyon, pero sa natira sa kanilang nailigtas nagsalo-salo sila tulad sa isang piging na alam nilang ‘di nila mararanasang muli.
+"/>
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tcTitleDetails"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Ang Ama"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/imgBookCover"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/madeBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="(Maikling Kuwento)\n(Isinalin sa Filipino ni Mauro R. Avena)"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/medium"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tcTitleDetails"
+        app:layout_constraintTop_toBottomOf="@+id/tcTitleDetails" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

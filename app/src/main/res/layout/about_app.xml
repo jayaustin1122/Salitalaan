@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="13dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:padding="10dp"
+    android:fontFamily="@font/medium"
+    android:text="Ang SALITALAAN ay isang offline application na naglalaman ng mga Akdang Pampanitikan. Layunin nitong mapaunlad ang iyong bokabularyo; gayundin upang mapayabong ang wikang Filipino. Ito ay nagbibigay ng mga kahulugan ng mga salita at mga paliwanag sa talasalitaan na maaring mahirap unawain ng mga hindi gaanong pamilyar sa wikang Filipino. Sa pamamagitan ng SALITALAAN, mas magiging madali para saiyo na maunawaan ang mga pangungusap sa akda at mas mapapalawak ang iyong kaalaman sa wikang Filipino. Maaaring magamit ito kahit saan at kahit walang koneksyon ng internet dahil sa offline na kalikasan ng application na ito."/>
+</androidx.cardview.widget.CardView>
