@@ -13,7 +13,7 @@
         android:layout_height="150dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:background="@drawable/angama"
+        android:background="@drawable/prinsesa"
         android:scaleType="fitXY"
         android:translationZ="6dp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
@@ -26,7 +26,7 @@
         android:padding="5dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
-        android:text="Ang Ama"
+        android:text="Ang Alamat ni Prinsesa Manorah"
         android:layout_marginStart="10dp"
         android:textColor="@color/white"
         android:fontFamily="@font/bold"
@@ -36,17 +36,6 @@
         app:layout_constraintStart_toEndOf="@+id/imgBookCover"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/madeBy"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="(Maikling Kuwento)\n(Isinalin sa Filipino ni Mauro R. Avena)"
-        android:textColor="@color/gray"
-        android:fontFamily="@font/medium"
-        android:textSize="13sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/tcTitleDetails"
-        app:layout_constraintTop_toBottomOf="@+id/tcTitleDetails" />
 
     <ImageButton
         android:id="@+id/btnBack"
@@ -85,7 +74,7 @@
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="10dp"
+                android:padding="15dp"
                 android:layout_marginBottom="20dp"
                 android:scrollbars="vertical">
 
@@ -94,6 +83,45 @@
                     android:layout_height="match_parent"
                     android:paddingBottom="20dp"
                     android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Si Kinnaree Manorah ay isang prinsesang alamat ng Thai at ang pinakabata sa pitong anak na "
+                        android:paddingEnd="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/kinnaree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="kinnaree "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="ng Haring Prathum at Reynang"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Janta kinnaree. Siya ay nakatira sa maalamat na kaharian ng Bundok Grairat. Ang pitong kinnaree ay kalahating babae at kalahating sisne. Sila’y nakalilipad at nagagawang itago ang kani-kanilang pakpak kung kanilang nanaisin. Saloob ng kahariang Krairat (Grairat), nakatago ang kagubatan ng Himmapan kung saan din namamahay ang mga nakatatakot nanilalang na hindi kilala sa daigdig ng mga tao. Sa loob ng kagubatan, nakakubli ang maganda at"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
@@ -106,14 +134,170 @@
                             android:textColor="@color/black"
                             android:textAlignment="center"
                             android:fontFamily="@font/medium"
-                            android:text="Magkahalo lagi ang takot at "/>
+                            android:text="kaaya-ayang "/>
                         <TextView
-                            android:id="@+id/pananabik"
+                            android:id="@+id/lawa"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/blue"
                             android:fontFamily="@font/medium"
-                            android:text="pananabik"/>
+                            android:text="lawa  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="kung saan ang pitong"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="kinnaree ay masayang dumadalaw lalo na sa"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="araw ng "/>
+                        <TextView
+                            android:id="@+id/Panarasi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="Panarasi "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="(kalakihan ng buwan)."/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Sa di-kalayuan ng lawa, nakatira ang isang"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/ermitanyo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="ermitanyo "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="na nagsasagawa ng kaniyang"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="meditasyon. Isang araw, napadako ang isang binata habang naglalakbay sa kagubatan ng Himmapan. Siya ay si Prahnbun. Nakita niya ang pitong kinnaree na masayang nagtatampisaw"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="sa ilog."/>
+                        <TextView
+                            android:id="@+id/namangha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="Namangha "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text=" siya sa "/>
+                        <TextView
+                            android:id="@+id/nakabibighaning"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="nakabibighaning "/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="kagandahan ni Prinsesa Manorah. Naisip niya na kung mahuhuli niya ang prinsesa, dadalhin niya ito kay Prinsipe Suton, ang anak ng Haring Artityawong at Reyna Jantaivee ng Udon Panjah. Tiyak na matutuwa ang prinsipe at tuluyang mapapaibig ito sa prinsesa. Ngunit naitanong niya sa sarili kung paano niya ito mahuhuli. Alam ni Prahnbun na may ermitanyong nakatira sa malapit ng kagubatan. Pinuntahan niya ito upang magpatulong sa kaniyang balak. Sinabi saka niya ngermitanyo na napakahirap ang manghuli ng kinnaree dahil agad-agad itong lumilipad kapag tinatakot. Ngunit naisip ng ermitanyo na may isang dragon"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="nanakatira sa"/>
+                        <TextView
+                            android:id="@+id/pinakasulok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text=" pinakasulok-sulukan"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text=" ng"/>
 
                     </LinearLayout>
                     <TextView
@@ -124,30 +308,58 @@
                         android:textAlignment="center"
                         android:paddingStart="10dp"
                         android:paddingEnd="10dp"
-                        android:text=" kapag hinihintay ng mga bata ang kanilang ama. Ang takot ay sa alaala ngisang lasing na suntok sa bibig na nagpapatulo ng dugo at nagpapamaga ng ilang araw sa labi. Ang pananabik ay sa pagkain na paminsan-minsa'y inuuwi ng ama -malaking supot ng mainit na pansit na iginisa sa itlog at gulay. Ang totoo, para sa sarili lang niya ang iniuuwingpagkain ng ama, lamang ay napakarami nito upang maubosniya nang mag-isa; pagkatapos ay naroong magkagulo satira ang mga bata na kanina pa aali-aligid sa mesa. Kundi sa pakikialam ng ina namabigyan ng kaniya-kaniyang parte ang lahat - kahit ito'y sansubo lang ng masarapna pagkain, sa mga pinakamatanda at malakas na bata lamang mapupunta ang lahat, at ni"/>
-
+                        android:text="kagubatan na maaaring makatulong sa kanila. Nagpasalamat ang binata sa ermitanyo at nagmamadaling lumisan upang hanapin ang dragon. Hindi natuwa ang dragon nang marinig ang balak ni Prahnbun, ngunit napapayag din itong bigyan niya si Prahnbun ng makapangyarihang"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
                         android:gravity="center"
                         android:orientation="horizontal">
+
                         <TextView
-                            android:id="@+id/katiting"
+                            android:id="@+id/lubid"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/blue"
                             android:fontFamily="@font/medium"
-                            android:text="katiting "/>
+                            android:text="lubid "/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
                             android:textAlignment="center"
                             android:fontFamily="@font/medium"
-                            android:text="ay walang maiiwan sa maliliit."/>
+                            android:text="na siyang panghuhuli niya sa "/>
                     </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Prinsesa Manorah. Nagpasalamat ang binata at patakbong umalis na dala-dala ang makapangyarihang lubid at patagong tinungo ang ilog kung saan naglalaro ang mga kinnaree. Habang abala sa paglalaro ang mga kinnaree, inihagis ni Prahnbun ang lubid at matagumpay na nahuli si Prinsesa Manorah. Ganun nalamang ang pagkaawa ng ibang mga kapatid ng prinsesa. Ngunit sila’y walang nagawa kundi agad- agad nalumipad dahil sa takot na sila rin ay paghuhulihin. Itinali nang mahigpit ni Prahnbun ang pakpak ni Prinsesa Manorah upang hindi makawala at tuluyang madala pabalik sa Udon Panjah at maibigay kay Prinsipe Suton nanoo’y naglalakbay rin sakay sa kabayo papunta sa kagubatan. Nakasalubong niya si Prahnbun dala-dala si Prinsesa Manorah. Agad-agad na naakit sa kagandahan ni Prinsesa Manorah ang prinsipe. Nang isalaysay ni Prahnbun kay Prinsipe Suton ang dahilan kung bakit niya hinuli at dinala ang prinsesa sa harap niya, nagpasalamat ang prinsipe at binayaran siya nito ng napakalaking halaga. Nagbalik ang prinsipe sa kaniyang palasyo dala-dala si Prinsesa Manorah kung saan umusbong ang isang tunay na pag-ibig sa isa’t isa. Nang sabihin ng prinsipe sa kaniyang inang prinsesa at amang hari angbuong pangyayari, masayang-masaya sila at agad-agad nagbalak na magsagawa ng kasalpara kina PrinsipeSuton at PrisesaManorah. Bumalik sila sa palasyo ng Udon Panjah kung saan isinagawa ang kasal at tuluyang namuhay nang masaya’t"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
-
+                        <TextView
+                            android:id="@+id/matiwasay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="matiwasay "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="habambuhay."/>
+                    </LinearLayout>
                 </LinearLayout>
             </ScrollView>
         </androidx.cardview.widget.CardView>

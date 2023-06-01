@@ -10,6 +10,8 @@ import android.view.ViewGroup
 import android.widget.SearchView
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.salitalaan.Panitikan.AngAmaFragment
+import com.example.salitalaan.Panitikan.EstelaFragment
+import com.example.salitalaan.Panitikan.ManorahFragment
 import com.example.salitalaan.databinding.AboutAppBinding
 import com.example.salitalaan.databinding.FragmentPanitikanBinding
 import com.example.wika_runungan.adapters.NoliAdapter
@@ -57,9 +59,17 @@ class PanitikanFragment : Fragment() {
                 transaction.addToBackStack(null)
                 transaction.commit()
             } else if (position == 1) {
-
+                val fragment = ManorahFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
             } else if (position == 2) {
-
+                val fragment = EstelaFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
             } else if (position == 3) {
 
             } else if (position == 4) {
