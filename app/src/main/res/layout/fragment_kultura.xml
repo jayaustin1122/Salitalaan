@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue2"
+    tools:context=".Panitikan.AngAmaFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgBookCover"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/pamana"
+        android:scaleType="fitXY"
+        android:translationZ="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/bglogin2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:layout_marginBottom="20dp"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="30dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="NOON, ang bawat paghakbang ay isang "/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/pagtalunton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="pagtalunton,"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="isang pagtahak sa matuwid "/>
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text=" na landas upang marating ang paroroonan
+gaano man ito kalapit, gaano man ito kalayo
+gaano man ito kakitid, gaano man ito kalawak
+kaunti man o marami ang mga paang humahakbang
+mabagal man o mabilis, pahintu-hinto man o tuloy-tuloy
+ang bawat paghakbang ay may"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/patutunguhan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="patutunguhan. "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="ang bawat paghakbang"/>
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="ay may mararating.
+ang bawat paghakbang ay may pagsasakatuparan."/>
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/medium"
+                    android:textAlignment="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="\nhindi na mabilang ang paghakbang na naganap sa ating kasaysayan
+paghakbang na pinuhunanan ng pawis, dugo at luha
+paghakbang na kinamulatan ng maraming pagsubok,
+pangamba at panganib
+mula pa sa panahon ng kawalang-malay
+hanggang sa panahon ng walang humpay na pananakop,
+digmaan at kasarinlan
+at hanggang sa kontemporaryong panahon ng makinasyon
+sumibol ang kayraming kulturang sinangkutsa sa ating diwa’t kamalayan
+kulturang may ritmo ng pag-awit, may kislot ng pagsayaw,
+may haplos ng pag-aalay, may lambing ng panunuyo
+at tangis ng pamamaalam.
+ito ang ating tinalunton, ito ang bunga ng ating paghakbang:
+ang kulturang ipinamana sa atin ng nakaraan."/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="\nNGAYON, sa panahon ng pagkamulat"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="pagbabago, "/>
+                        <TextView
+                            android:id="@+id/binhingnakatanim"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="binhing nakatanim. "/>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text=" ang maraming kulturang "/>
+                        <TextView
+                            android:id="@+id/naguumapaw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="nag-uumapaw"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="sa ating diwa
+nagbabanyos sa ating damdamin
+nag-aakyat sa ating kaluluwa
+sinubok ng maraming taon
+inalay sa mga bagong sibol ng panahon
+anumang kulay, anumang lahi, anumang edad, anumang kasarian
+ang kultura’y pinayayabong
+nang may halong sigla at tuwa,
+nang may kasalong pagsubok at paghamon
+kulturang sinusuyod ng kapuri-puring ugali at marangal na kilos
+kulturang inihahain ng pagsamba’t prusisyon
+kulturang sinasalamin ang pasko’t pistang-bayan
+kulturang pinaaawit ng pasyon at pagsasabuhay ng Poon
+kulturang patuloy na sumisibol at ipinapupunla ng tradisyon:
+pampamilya, pang-eskuwela, pampolitika, panrehiyon at pambansa
+na dinilig ng maraming pagpapaalala, paggabay at patnubay
+at pinayaman ng makukulay na karanasan
+kulturang inihain at tinanggap, sinunod at isinakatuparan
+ito ang regalo ng kultura
+regalo ng kasalukuyan."/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="\nBUKAS, ang kulturang"/>
+                        <TextView
+                            android:id="@+id/itinudla"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="\nitinudla ng nakaraan"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                    android:text="at inireregalo ng kasalukuyan ay bubuhayin ng kinabukasan
+at mananatiling repleksyon ng"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/kabutihan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="kabutihan "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="kulturang gagalang sa"/>
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="mga bata’t matanda
+kulturang rerespeto sa mga babae’t may kapasanan
+kulturang luluklok ng pagbabayanihan at pagkakapatiran
+kasaliw ng mga awiting bayan at katutubong sayaw
+katali ng pagsasadula’t pagbabalagtasan
+diwang marangal ang ipupunla. kariringgan ng maraming wika
+magkakapantay sa kalayaan at karapatan
+magsasama-sama, magkakapit-bisig, magtutulung-tulungan
+habang patuloy na humahakbang upang galugarin pa
+ang kulturang pagyayamanin ng ating lahi
+ng lahing magiting
+ng lahing kapuri-puri
+ng lahing marangal."/>
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/tcTitleDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/bold"
+        android:padding="5dp"
+        android:text="KULTURA: Ang Pamana ng Nakaraan, Regalo ng Kasalukuyan, at Buhay ng Kinabukasan ni Pat V. Villafuerte"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgBookCover"
+        app:layout_constraintTop_toTopOf="@+id/imgBookCover" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

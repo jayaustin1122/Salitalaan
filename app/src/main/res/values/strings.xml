@@ -55,114 +55,29 @@
     <string name="sibilisasyon">maunlad na estado ng lipunan na may mataas na antas sa agham, industriya at pamahalaan.</string>
 
 
-    <string name="tinangka">Tinangka- pandiwa. Nangangahulugang sinubukang gawin ang isang kilos o gawain. Halimbawa: “Tinangka ng aking kaibigan na tumakbo sa marathon, ngunit hindi niya ito natapos dahil sa sobrang pagod.”</string>
-    <string name="nagmamasid">Nagmamasid- pandiwa. Tumutukoy sa pagkakaroon ng atensyon sa mga nangyayari sa paligid upang mag-obserba. Halimbawa: “Nagmamasid siya nang maigi habang naghihintay sa kanyang kaibigan na dumating.”</string>
-    <string name="ikinagagalak">Ikinagagalak- pang-uri. Tumutukoy sa magandang epekto o kaligayahan na naidudulot ng isang pangyayari. Halimbawa: “Ikinagagalak ng mga magulang ang mataas na marka ng kanilang anak sa pagsusulit.”</string>
-    <string name="napawi">Napawi- pang-uri. Pagkawala o pagbawas ng negatibong nararamdaman tulad ng pagkabahala o pag-aalala, at sakit. Halimbawa; “Napawi ang kirot ng kanyang sugat matapos lagyan ng gamot.”</string>
-    <string name="hinala">Hinala- pangngalan. Isang palagay o kuro-kuro na walang sapat na katibayan o ebidensiya. Ito ay nagpapakita ng kawalan ng katiyakan o pagdududa sa isang bagay o pangyayari. Halimbawa: “May hinala ang mga pulis na siya ang may kagagawan sa naganap na krimen.”</string>
+    <string name="ateista">isang taong walang paniniwala sa Diyos.</string>
 
-    <string name="dinaluhan">Dinaluhan- pandiwa. Ang salitang ito ay nangangahulugang nagpakita o pumunta sa isang okasyon o kaganapan. Halimbawa: “Dinaluhan nang maraming tao ang kasal ng aking kaibigan.”</string>
-    <string name="banas">Banas- pangngalan. Tumutukoy sa pagkabagot o walang gana. Halimbawa: “Naramdaman ko ang banas sa loob ng kwaryo dahil sa sobrang katahimikan.”</string>
-    <string name="pagmamasid">Pagmamasid- pangngalan. Tumutukoy sa aktong pagtingin o pag-oobserba sa paligid. Halimbawa: “Sa aking pagmamasid ay napansin kong masisipag ang iyong mga mag-aaral</string>
-    <string name="kabisera">Kabisera-pangngalan. Pinakamahalagang upuan o posisyon sa mesa o hapagkainan, kung saan kadalasang umuupo ang pinakamahalaga o pinakamataas na personalidad sa isang pagtitipon. Halimbawa: “Inalalayan ng binibini ang punong-bayan upang makaupo sa kabisera.”</string>
-    <string name="panauhin">Panauhin- pangngalan. Tumutukoy sa bisita o taong pinararangalan o tinatanggap nang buong puso at kabaitan sa isang lugar o sitwasyon.</string>
-    <string name="pakikipagsapalaran">Pakikipagsapalaran- pangngalan. Pagtataya sa isang panganib o paglalakbay upang makamit ang isang layunin. Halimbawa:  “Masaya ang kanyang pakikipagsapalaran sa mga  bundok kahit na delikado ito.  </string>
+    <string name="lapastangan">hindi nagpapakitan ng paggalang sa dapat igalang.</string>
 
-    <string name="nabatid">Nabatid- pandiwa. Tumutukoy sa pagkakaroon ng kaalaman o impormasyon tungkol sa isang bagay o pangyayari. Halimbawa: “Nabatid ng anak ang labis na paghihirap na sinapit ng ina nang ito ay magtrabaho sa ibang bansa.”</string>
-    <string name="tiyak">Tiyak- pangngalan. Pagiging sigurado o walang duda at pag-aalinlangan tungkol sa isang bagay o sitwasyon. Halimbawa: “Tiyak na makatutulong ang pagkakaroon ng sapat na edukasyon upang makamit ang mga pangarap sa buhay.”</string>
-    <string name="napadpad">Napadpad- pandiwa. Tumutukoy sa hindi sinasadyang pagpunta o pagdating sa isang lugar. Halimbawa: “Napadpad sa isang liblib na bayan sa probinsya ng Camarines Norte ang isang grupo ng turista na mula sa Maynila.”</string>
-    <string name="inilaan">Inilaan- pandiwa. Nangangahulugang itinakda o inihandog ang isang bagay, panahon, oras, lugar, o halaga upang magamit para sa isang partikular na layunin. Halimbawa: “Inilaan ng kompanya ang malaking pondo para sa pagpapaunlad ng kanilang bagong produkto.”</string>
-    <string name="naisalaylay">Naisalaysay- pandiwa. Nagmula sa salitang “salaysay”, na nangangahulugang kwento, o paglalahad ng isang pangyayari o karanasan. Halimbawa: “Naisalaysay na niya sa akin ang kanyang karanasan sa paglalakbay sa ibang bansa.”</string>
-    <string name="sinapit">Sinapit- pandiwa. Nagpapakita ng kaganapang naranasan o nangyari sa isang tao. Nangangahulugan ito ng pagdanas ng isang pangyayari, karaniwang mayroong negatibong konotasyon, tulad ng paghihirap, trahedya, o kawalan. Halimbawa: “Malubhang karamdaman ang sinapit niya matapos ang mahabang panahong paninilbihan sa palasyo.”</string>
-    <string name="pinaratang">Pinaratang- pandiwa. Kasingkahulugan ng bintang. Ito ay pagpapahayag ng  kasinungalingan o hindi totoo tungkol sa isang tao. Halimbawa: ”Pinaratangan siya ng pandaraya sa halalan.”</string>
+    <string name="lukbutan">bulsa, lalagyan sisidlan.</string>
+    <string name="naulinigan">narinig.</string>
+    <string name="pananalig">pananampalataya.</string>
+    <string name="pangilin">pagsamba o pagsimba.</string>
 
-    <string name="kalesa">Kalesa- pangngalan. Tradisyunal na uri ng kariton na ginagamit noon unang panahon bilang transportasyon sa Pilipinas. Karaniwang gawa sa kahoy at may apat na gulung. Ito ay may kubol na pambiyahe at may kabayo na nagsisilbing tsuper. Halimbawa: “Nang mga panahong iyon, ang mga tao ay umaasa pa sa kalesa bilang pangunahing pampublikong transportasyon.”</string>
-    <string name="balisa">Balisa- pang-uri. Salitang ginagamit upang ilarawan ang isang taong maaaring nakararamdam ng takot, pangamba, o pagkabahala sa isang partikular na sitwasyon o pangyayari. Halimbawa: “Siya ay balisa matapos malaman na sila ay inabandona ng kanilang ama.”</string>
-    <string name="kalunos">Kalunos-lunos- pang-uri. Tumutukoy sa isang pangyayari o kalagayan na nakalulungkot, o nakakaawa. Ang paggamit ng salitang ito ay nagpapakita ng simpatya sa isang tao. Halimbawa: “Kalunos-lunos makitang ang mga bata ay nasa lansangan, walang tahanan at walang makain.”</string>
-    <string name="kubyertos">Kubyertos- pangngalan. Mga kasangkapang ginagamit sa pagkain tulad ng tinidor, kutsara, kutsilyo, atbp. Halimbawa: “Dahan-dahang iniligpit ng bata ang mga ginamit na kubyertos matapos ang salo-salo.”</string>
-    <string name="orkestra">Orkestra- pangngalan. Grupo ng musikero na nagtatanghal ng musika sa mga instrumentong tulad ng kwerdas, brass, woodwind, at percussion. Halimbawa: “Natatangi ang orkestra sa kanilang magandang pagtugtog ng mga kanta sa kasal ng aking kaibigan. “</string>
-    <string name="pastol">Pastol- pangngalan. Taong nagpapastol ng mga hayop tulad  ng tupa, kambing, baka, atbp. Halimbawa: “Madalas kong makita ang pastol na patungo sa kabukiran upang pumunta sa kanyang mga tupa.”</string>
-    <string name="pumukaw">Pumukaw- pandiwa. Tumutukoy sa isang bagay o pangyayaring nagpagising sa isip, atensyon, o kamalayan ng isang tao.  Halimbawa: “Pumukaw sa aking atensyon ang mga taong biglang nag-umpukan sa labas ng aming bahay.”</string>
-    <string name="nabighani">Nabighani- pandiwa. Nangangahulugang nagustuhan o namangha sa isang tao, bagay, o pangayyari. Halimbawa: “Nabighani ako sa ganda ng tanawain sa taas ng bundok.”</string>
-    <string name="maiwaglit">Maiwaglit- pandiwa. Nangangahulugang mawala sa paningin. Halimbawa: “Hindi ko na makuha ang aking cellphone matapos ko itong maiwaglit sa silid-aralan.”</string>
-    <string name="pransiskano">Pransiskano- pangngalan. Tumutukoy sa miyembro ng relihiyosong pangkat na nagmula sa Orden ng mga Pransiskano., isang pangkat ng mga monghe sa simbahang Katolika na kilala sa kanilang pagsunod sa mga aral ni San Francisco ng Assisi. Halimbawa: “ Nagtayo ng paaralan ang mga Pransiskano sa aming lugar.”</string>
-    <string name="nahabag">Nahabag- pandiwa. Tumutukoy sa pagkaawa sa iba na nangangailangan ng tulong. Halimbawa: “Nahabag siya sa mga batang pulubi kaya naman binigyan niya ito ng makakain.”</string>
+    <string name="pomada">pampahid sa buhok, mabango at karaniwang ginagamit ng lalaki.</string>
 
-    <string name="Lohika">Lohika- pangngalan. Ito ay ang pagsasaalang-alang ng mga matapat na argumento. Halimbawa: “Ang lohika ay mahalagang kasangkapan sa pag-aaral ng pilosopiya.”</string>
-    <string name="Dominikano">Dominikano- pangngalan.. Isang taong miyembro ng Orden ng mga Dominikano, isang pangkat ng mga monghe sa Simbahang Katoliko. Halimbawa: “Nakita ko ang Dominikano na nagmimisa sa simbahan.”</string>
-    <string name="Tipikal">Tipikal- pang-uri.  Ito ay tumutukoy sa mga katangian na karaniwang makikita sa isang tao, bagay, o hayop. Halimbawa: “Siya ay tipikal na mag-aaral na kung minsa’y nakagagalitan ng guro dahil sa kakulitan.”</string>
-    <string name="Indio">Indio- pangngalan. salitang ginamit noong panahon ng pananakop ng mga Kastila sa Pilipinas upang tukuyin ang mga katutubong Pilipino bilang mga manggagawa at mga mahihirap na tao sa lipunan. Halimbawa: “Ang mga indio ay dapat na sumunod at maglingkod sa mga Espanyol.”</string>
-    <string name="Prominente">Prominente- pangngalan. Tumutukoy ito sa isang tanyag, o kilalang tao sa isang partikular na larangan o komunidad.Halimbawa: “Ang prominenteng aktor ay nagdulot ng kasiyahan sa mga tagahanga.”</string>
-    <string name="Sagrado">Sagrado- pang-uri. Ito ay nangangahulugang banal, itinuturing na espesyal o pinahahalagahan nang labis. Halimbawa: “Ang pag-aaral ng mga banal na kasulatan ay isang sagradong tungkulin ng mga pari.”</string>
-    <string name="Deboto">Deboto- pangngalan. Isang taong may malalim na pananampalataya o dedikasyon sa isang diyos, relihiyon, o banal na pagdiriwang. Halimbawa: “Ang simbahan ay puno ng mga deboto na nagdarasal at nagpapakumbaba.”</string>
-    <string name="Kabiyak">Kabiyak- pangngalan. Ito ay ang kasama o katuwang sa buhay, partikular na nag-uugnay sa mag-asawa. Halimbawa: “Ang aking kabiyak ay palaging nasa aking tabi; sa mga tagumpay o kabiguan man.”</string>
+    <string name="sumakabilangbuhay">pumanaw o namatay.</string>
+    <string name="toniko">gamot pampalakas.</string>
 
 
-    <string name="aligaga">Aligaga-pang-uri. Ito ay tumutukoy sa pakiramdam na naguguluhan, hindi mapakali, o hindi mapanatag. Halimbawa: “Siya ay aligaga matapos malamang nagtataksil ang kanyang asawa.”</string>
-    <string name="magsing">Magsing-irog- pangngalan. Tumutukoy sa romantikong pagsasama ng dalawang taong nagmamahalan o magkasintahan. Halimbawa: “Ang pagpapakita ng malasakit at pag-aalaga sa isa’t isa ay mahalagang bahagi ng relasyon ng mga magsing-irog.”</string>
+    KULTURA: Ang Pamana ng Nakaraan, Regalo ng Kasalukuyan,    at Buhay ng Kinabukasan ni Pat V.
+    Villafuerte
 
-    <string name="ginugol">Ginugol- pandiwa. Paglalaan ng oras, lakas, o salapi sa isang gawain. Halimbawa: “Ginugol niya ang kanyang buong buhay sa paglilingkod sa kapwa.”</string>
-
-    <string name="musmos">Musmos-pangngalan. Tumutukoy sa indibiduwal partikular ang mga bata na wala pang sapat na karanasan o kaalaman. Halimbawa: “Ang musmos na bata ay nangangailangan ng gabay at pagmamahal mula sa mga magulang.”</string>
-
-    <string name="sapalaran">Pakikipagsapalaran-pandiwa. Pagharap sa mga hamon, panganib, o pagsubok sa buhay. Halimbawa: “Ang pag-aaral sa ibang bansa ay isang malaking pakikipagsapalaran na handing harapin ng mga mag-aaral alang-alang sa kanilang kinabukasan.”</string>
-
-    <string name="isinumbat">Isinumbat- pandiwa. Pagpapahayag ng damdamin ng pagkagalit sa pamamagitan ng pagsisiwalat ng mga ksalanan o pagkakamali ng iba. Ha;imbawa: “Nakaramdam ng pagsisisi ang anak matapos niyang isumbat ang pagkukulang ng kanyang mga magulang.”</string>
-
-
-    <string name="diskriminasyon">Diskriminasyon- pangngalan. Hindi patas na pagtrato o pagbibigay ng mga pribilehiyo batay sa pagkakaiba ng mga tao tulad ng lahi, kasarian, relihiyon, kapansanan, atbp. Halimbawa: “Ang suliraning diskriminasyon laban sa mga miyembro ng LGBTQ+ ay dapat bigyang pansin upang malutas.”</string>
-
-    <string name="pagkalugmok">Pagkalugmok-pang-uri. Ito ay tumutukoy sa karanasan ng labis na kalungkutan, kawalan ng pag-asa, o kahirapan.” Halimbawa: “Matapos na mawalan ng trabaho, siya ay lugmok at hindi alam kung paano magsisimula muli.”</string>
-
-    <string name="lulan">Lulan-pangngalan. Tumutukoy sa mga pasahero na nasa loob ng isang sasakyang pangtransportasyon tulad ng bus, tren, o barko. Halimbawa: “Ang bus na iyon ay lulan ng mga mag-aaral na patungo sa Manila upang mag-field trip.”</string>
-
-    <string name="binagtas">Binagtas-pandiwa. Tumutukoy sa paglalakbay o pagtawid mula sa isang dako patungo sa ibang dako. Halimbawa: “ Binagtas ng mga manlalakbay ang malayong kabundukan upang marating ang water falls.”</string>
-
-    <string name="nanlumo">Nanlumo- pang-uri. Tumutukoy sa pakiramdam ng kawalang pag-asa, panghihinayang, o kalungkutan. Halimbawa: “Nanlumo siya nang malamang hindi siya nakapasa sa pagsusulit.” </string>
-
-    <string name="naibsan">Naibsan- pandiwa. Pagkakaroon ng lunas o solusyon sa isang suliranin, na nagreresulta sa kaluwagan, kaginhawahan, o pagbabalik sa normal na kalagayan. Halimbawa: “Nang inilagay niya ang yelo sa namamagang binti, unti-unting naibsan ang sakit na nararamdaman niya.”</string>
-
-
-    <string name="gobernadorcillo">Gobernadorcillo-pangngalan. Historikal na posisyon sa Pilipinas noong panahon ng pananakop ng mga kastila. Tumutukoy sa pinuno ng isang bayan o munisipalidad. HAlimbawa: “Noong panahon ng kolonisasyon, ang gobernadorcillo ay itinuturing na pinakamataas na opisyal sa isang bayan at siya ang pinagkakatiwalaan ng kapangyarihan ng mga kastila.”</string>
-
-
-    <string name="nagpatiwakal">Nagpatiwakal- pandiwa. Tumutukoy sa pagpapakamatay ng isang indibiduwal. Halimbawa; “Dahil sa labis na lungkot at depresyon, siya ay nagpatiwakal noong nakaraang taon.”</string>
-
-    <string name="hakahaka">Haka-haka- pangngalan. Mga palagay, saloobin, o mga pag-aakala na hindi pa lubos na napatutunayan o walang malinaw na batayan. Halimbawa: “May mga haka-haka na ang kanilang pagsasama ay nauwi sa hiwalayan.” </string>
-
-    <string name="umusbong">Umusbong- pandiwa. Tumubo, sumulpot, o lumitaw. Nagpapahayag ng pagsisimula o pagkakaroon ng pag-unlad, paglago, o pagkakaroon ng bagong pag-asa. Halimbawa: “Sa gitna ng krisis at pandemya, maraming maliliit na negosyo ang umusbong at patuloy na tinatangkilik.”</string>
-
-    <string name="awtoridad">Awtoridad- Pangngalan. kapangyarihan o karapatan ng isang tao na magpataw ng mga patakaran, magbigay ng mga utos, o magdesisyon sa isang larangan. Halimbawa: “Ang mga local na opisyaal ang may awtoridad na magpasya hinggil sa mga proyekto ng imprastraktura sa kanilang nasasakupan.</string>
-
-    <string name="guwardiyasibil">Guwardiya sibil- pangngalan. Taong tagapangalaga ng kaayusan, kaligtasan, at nagpapatupad ng batas at regulasyon sa isang pampublikong lugar. Halimbawa; “Ang guwardiya sibil ay nakatayo sa harap ng gusali, nagmamasid at nagbabantay upang matiyak ang seguridad ng mga tao sa loob.”</string>
-
-    <string name="hidwaan">Hidwaan- pangngalan. Tumutukoy sa malalim na alitan, away, o hindi pagkakaunawaan sa pagitan ng mga tao, grupo, o panig. Halimbawa: “Ang hidwaan sa pagitan ng magkabilang Partido aay nagdulot ng malawakang tension at di pagkakasunduan sa bansa.”</string>
-
-
-    <string name="sepulturero">Sepulturero- pangngalan. Taong responsable sa paglilibing, o paghuhukay ng mga puntod sa sementeryo. Halimbawa: “Ang sepulturero ay nagtatrabaho nang maayos upang siguruhin na ang mga puntod ay malinis at maayos na naaalagaan.</string>
-
-    <string name="nagampanan">Nagampanan- pandiwa. Tumutukoy sa pagtupad sa isang tungkulin, responsibilidad, o gawain nang maayos. Halimbawa: “Dahil sa kanyang dedikasyon at husay, nagampanan niya nang maayos ang kanyang tungkulin bilang tagapangasiwa sa programa.”</string>
-
-
-    <string name="labi">Labî- pangngalan. Ibang katawagan sa salitang bangkay. Halimbawa: “Nagulantang ang mga pulis matapos matagpuan ang labî ng biktima sa ilalim ng kama.”</string>
-
-    <string name="kinompronta">Kinompronta- pandiwa. Direkta o tuwirang pagharap sa isang tao upang harapin ang isang isyu, suliranin, o hindi pagkakaintindihan. Maaaring pagpapahayag ng pagtutol, pagtatalo, o pagtutuwid sa isang usaping hindi naaayon sa kagustuhan o paniniwala ng isang indibiduwal. Halimbawa: “Nang kinompronta niya ang kanyang kaibigan dahil sa paninira nito, agad itong humingi ng paumanhin.”</string>
-
-    <string name="nilapastangan">Nilapastangan- pandiwa. Pahayag na nagdudulot ng insulto, o pagsalaula sa dignidad, karangalan, o pagpapahalaga sa isang tao. Halimbawa: “Ang pagmumura at pang-iinsulto niya sa harap ng maraming tao ay isang malaking kalapastanganan sa pagkatao ng kanyang kaibigan.”</string>
-
-
-    <string name="delubyo">Delubyo- pangngalan. Tumutukoy sa malakas at malawakang sakuna o kalamidad tulad ng bagyo, lindol, at iba pang likas na panganib. Ito ay nagdudulot ng matinding pinsala at panganib sa mga tao at kanilang ari-arian. Halimbawa: “Ang delubyong tumama sa aming bayan ay nagdulot ng malawakang pagkasira ng mga tahanan at pagkawala ng ilang buhay.”</string>
-
-    <string name="hinagpis">Hinagpis- pang-uri. Nagpapahiwatig ng malalim na kalungkutan, pighati, o lungkot na dulot ng isang negatibong pangyayari. Halimbawa: “Mababakas sa kanyang mga mata ang hinagpis at labis na kalungkutan dahil sa pagkamatay ng kanyang mahal sa buhay.”</string>
-
-    <string name="purgatoryo">Purgatoryo- pangngalan. Isang relihiyosog kaisipan na tumutukoy sa isang lugar o kalagayan kung saan ang mga kaluluwa ay nagpapakasakit upang matanggal ang mga kasalanan bago makarating sa langit. Ito ay may kaugnayan sa paniniwalang katoliko at iba pang pananampalataya. Halimbawa; “Ang nanay ko ay naniniwalang ang kaluluwa ng aming yumaong lolo ay nasa purgatoryo at kailangan naming siyang ipagdasal.”</string>
-
-    <string name="nangngingitngit">Nangngingitngit- pandiwa. Nagpapahiwatig ng matinding galit, poot, o pagkaasar. Ito ay tumutukoy sa sitwasyon kung saan ang isang tao ay nagpapahiwatig ng matinding damdamin at sama ng loob. Halimbawa: “Nagngingitngit ang guro nang mahuli ang kanyang mag-aaral na nandaraya sa pagsusulit.”</string>
-
-    <string name="paratang">Paratang- pangngalan. Tumutukoy sa pahayag na nag-aakusa o nagbibintang sa isang tao ng kasalanan, o pagkakamali. Halimbawa: “Binatikos ng mga kritiko ang paratang na korapsyon laban sa politiko.”</string>
-
-    <string name="palyado">Palyado- pang-uri. Nagpapahiwatig na ang isang bagay o sistema ay hindi gumagana nang maayos. Nangangahulugang may depekto o sira. Halimbawa: “Ang kotse ay hindi gumagana dahil sa palyadong ignition switch nito.”</string>
-    <string name="a"><![CDATA[Mahaba at matinis, iyon ay tumatagal ng ilang oras, habang siya ay nakaupo sa bangko sa isang sulok ng bahay, namamaluktot nang pahiga sa banig kasama ang ibang mga bata, na di-makatulog. Walang pasensiya sa kaniya ang pinakamatandang lalaki at babae, na malakas siyang irereklamo sa ina napagagalitan naman siya sa pagod na boses; pero sa gabing naroon ang ama,napapaligiran ng bote ng beer na nakaupo sa mesa, iniingatan nilang mabuti nahindi humalinghing si Mui Mui. Alam nila na ang halinghing niyon ay parang kudkuran na nagpapangilo sa nerbiyos ng ama at ito\'y]]></string>
-    <string name="b">gayong pauli-uli tsiyang pinagbabawalan ng ina. Pero ang nakakainis talaga ay ang kaniyang</string>
-
+    <string name="binhingnakatanim">ipinamana</string>
+    <string name="itinudlangnakaraan">itinanim, pinuntirya.</string>
+    <string name="kabutihan">gumagawa ng marangal.</string>
+    <string name="naguumapaw">pinayayabong; punong-puno; o labis-labis.</string>
+    <string name="pagtalunton">pagtahak sa isang landas.</string>
+    <string name="patutunguhan">mararating</string>
+    <string name="tangisngpamamaalam">pag-iyak; panaghoy.</string>
 </resources>

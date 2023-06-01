@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue2"
+    tools:context=".Panitikan.AngAmaFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgBookCover"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/kapitan"
+        android:scaleType="fitXY"
+        android:translationZ="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar" />
+    <TextView
+        android:id="@+id/tcTitleDetails"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Tiyo Simon"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/imgBookCover"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/madeBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Dula – Pilipinas ni N.P.S. Toribio"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/medium"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tcTitleDetails"
+        app:layout_constraintTop_toBottomOf="@+id/tcTitleDetails" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/bglogin2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:layout_marginBottom="20dp"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="20dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:paddingStart="10dp"
+                        android:text="Mga Tauhan:\nTiyo Simon - isang taong nasa katanghalian ang gulang, may kapansanan ang
+isang paa at may mga paniniwala sa buhay na hindi maunawaan ng
+kaniyang hipag na relihiyosa
+\nIna – ina ni Boy
+\nBoy – pamangkin ni Tiyo Simon. Pipituhing taong gulang
+\nOras – Umaga, halos hindi pa sumisikat ang araw. "
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:paddingStart="10dp"
+                        android:text="\nTagpo: Sa loob ng silid ni Boy. Makikita ang isang tokador na  kinapapatungan ng mga langis at pomada sa buhok, toniko,  suklay at iba pang gamit sa pag-aayos. Sa itaas ng  tokador,nakadikit sa dingding ang isang malaking larawan ng  Birheng nakalabas ang puso at may tarak itong punyal. Sa tabi  ng nakabukas na bintana sa gawing kanan ay ang katreng  higaan ng bata. Sa kabuuan, ang silid ay larawan ng  kariwasaan.  Sa pagtaas ng tabing, makikita si Boy na binibihisan ng  kaniyang ina. Nakabakas sa mukha ng bata ang pagkainip  samantalang sinusuklay ang kaniyang buhok.  (Biglang uunat ang babae, saglit na sisipatin ang ayos ng anak, saka ngingiti.)
+\n\nIna: O, hayan, di nagmukha kang tao. Siya, diyan ka muna at ako
+naman ang magbibihis.
+\n\nBoy: (Dadabog) Sabi ko, ayaw kong magsimba, e!
+\n\nIna: Ayaw mong magsimba! Hindi maa... Pagagalitin mo na naman
+ako, e! At ano’ng gagawin mo rito sa bahay ngayong umagang ito
+ng pangiling-araw?
+\n\nBoy: Maiiwan po ako rito sa bahay, kasama ko si ... si Tiyo Simon...
+\n\nIna: (Mapapamulagat) A, ang ateistang iyon. Ang ... Patawarin ako ng
+Diyos.
+\n\nBoy: Basta. Maiiwan po ako... (Ipapadyak ang paa) Makikipagkuwentuhan
+na lamang ako kay Tiyo Simon...
+\n\nIna: (Sa malakas na tinig) Makikipagkuwentuhan ka? At anong  kuwento? Tungkol sa kalapastanganan sa banal na pangalan ng  Panginoon?
+\n\nBoy: Hindi, Mama. Maganda ang ikinukuwento ni Tiyo Simon sa akin...
+\n\nIna: A, husto ka na ... Husto na, bago ako magalit nang totohanan at  humarap sa Panginoon ngayong araw na ito nang may dumi sa  kalooban
+\n\nBoy: Pero...
+\n\nIna: Husto na sabi, e!
+(Matitigil sa pagsagot si Boy. Makaririnig sila ng mga yabag na hindi  pantay, palapit sa nakapinid na pinto ng silid. Saglit na titigil ang  yabag; pagkuwa’y makaririnig sila ng mahinang pagkatok sa pinto.)
+\n\nIna: (Paungol) Uh ... sino ‘yan?
+\n\nTiyo Simon: (Marahan ang tinig) Ako, hipag, naulinigan kong ...
+(Padabog na tutunguhin ng babae ang pinto at bubuksan iyon. Mahahantad ang
+kaanyuan ni Tiyo Simon, nakangiti ito.)
+\n\nTiyo Simon: Maaari bang pumasok? Naulinigan kong tila may itinututol si Boy
+...
+\n\nBoy: (Lalapit) Ayaw kong magsimba, Tiyo Simon. Maiiwan ako sa iyo
+rito. Hindi ako sasama kay Mama.
+\n\nIna: (Paismid) Iyan ang itinututol ng pamangkin mo, Kuya. Hindi nga  raw sasama sa simbahan ...  (Maiiling si Tiyo Simon, ngingiti at paika-ikang papasok sa loob. Hahawakan
+sa balikat si Boy.)
+\n\nTiyo Simon: Kailangan ka nga namang sumama sa simbahan, Boy. Kung gusto
+mo... kung gusto mong isama ako ay maghintay kayo at ako’y
+magbibihis ... Magsisimba tayo.
+(Mapapatingin nang maluwat si Boy sa kaniyang Tiyo Simon, ngunit hindi
+makakibo. Ang ina ay napamangha rin. Tatalikod na si Tiyo Simon at lalabas.
+Maiiwang natitigilan ang dalawa. Pagkuwa’y babaling ang ina kay Boy.)
+\n\nIna: Nakapagtataka! Ano kaya’ng nakain ng amain mong iyon at
+naisipang sumama ngayon sa atin? Ngayon ko lamang siya
+makikitang lalapit sa Diyos ...
+\n\nBoy: Kung sasama po si Tiyo, sasama rin ako ...
+\n\nIna: Hayun! Kaya lamang sasama ay kung sasama ang iyong amain. At
+kung hindi, e, hindi ka rin sasama. Pero, mabuti rin iyon ...
+Mabuti, sapagkat hindi lamang ikaw ang maaakay ko sa wastong
+landas kundi ang kapatid na iyon ng iyong ama na isa ring ...
+(Mapapayuko ang babae, papahirin ang luhang sumungaw sa mga mata.
+Magmamalas lamang si Boy.)
+\n\nIna: (Mahina at waring sa sarili lamang). Namatay siyang hindi man
+lamang nakapagpa-Hesus. Kasi’y matigas ang kalooban niya sa
+pagtalikod sa simbahan. Pareho silang magkapatid, sila ng iyong
+amain. Sana;y magbalik-loob siya sa Diyos upang makatulong siya
+sa pagliligtas sa kaluluwa ng kaniyang kapatid na sumakabilang
+buhay na ...
+(Mananatiling nagmamasid lamang si Boy. Pagkuwa’y nakarinig sila ng hindi
+pantay na yabag, at ilang sandali pa ay sumungaw na ang mukha ni Tiyo Simon
+sa pinto. Biglang papahirin ng babae ang kaniyang mukha, pasasayahin ito,
+at saka tutunguhin ang pinto.)
+\n\nIna: Siyanga pala. Magbibihis din ako. Nakalimutan ko, kasi’y ...
+diyan muna kayo ni Boy, Kuya ...
+(Lalabas ang babae at si Tiyo Simon ay papasok sa loob ng silid. Agad
+tutunguhin ang isang sopang naroroon, pabuntung-hiningang uupo. Agad, naman
+siyang lalapitan ni Boy at ang bata ay titindig sa harapan niya.)
+\n\nTiyo Simon: (Maghihikab) Iba na ang tumatandang talaga. Madaling mangawit,
+mahina ang katawan at ... (biglang matitigil nang mapansing ang
+tinitingnan ng bata ay ang kaniyang may kapansanang paa.
+Matatawa.)
+\n\nBoy: Bakit napilay po kayo, Tiyo Simon? Totoo ba’ng sabi ni Mama na
+iya’y parusa ng Diyos? ...
+Tiyo Simon: (Matatawa) Sinabi ba ng Mama mo ‘yon?
+\n\nBoy: Oo raw e, hindi kayo nagsisimba. Hindi raw kasi kayo naniniwala
+sa Diyos. Hindi raw kasi ...
+\n\nTiyo Simon: (Mapapabuntong-hininga) Hindi totoo, Boy, na hindi ako na
+naniniwala sa Diyos ...
+\n\nBoy: Pero ‘yon ang sabi ni Mama, Tiyo Simon. Hindi raw kasi kayo
+nangingilin kung araw ng pangilin. Bakit hindi kayo
+nangingilin, Tiyo Simon?
+\n\nTiyo Simon: May mga bagay, Boy na hindi maipaliwanag. May mga bagay na  hindi maipaaalam sa iba sa pamamagitan ng salita. Ang mga bagay
+na ito ay malalaman lamang sa sariling karanasan sa sariling
+pagkamulat ... ngunit kung anuman itong mga bagay na ito, Boy,
+ay isa ang tiyak: malaki ang pananalig ko kay Bathala.
+\n\nBoy: Kaya ka sasama sa amin ngayon, Tiyo Simon?...
+\n\nTiyo Simon: Oo, Boy. Sa akin, ang simbahan ay hindi masamang bagay. Kaya
+huwag mong tatanggihan ang pagsama sa iyo ng iyong Mama. Hindi
+makabubuti sa iyo ang pagtanggi, ang pagkawala ng pananalig.
+Nangyari na sa akin iyon at hindi ako naging maligaya.
+(Titigil si Tiyo Simon sa pagsasalita na waring biglang palulungkutin ng
+mga alaala. Buhat sa malayo ay biglang aabot ang alingawngaw ng tinutugtog
+na kampana. Magtatagal nang ilang sandali pagkuwa’y titigil ang pagtugtog
+ng batingaw. Magbubuntunghininga si Tiyo Simon, titingnan ang kaniyang may
+kapansanang paa, tatawa nang mahina at saka titingin kay Boy).
+\n\nTiyo Simon: Dahil sa kapansanang ito ng aking paa, Boy, natutuhan ko ang
+tumalikod, hindi lamang sa simbahan, kundi sa Diyos. Nabasa ko
+ang The Human Bondage ni Maugham at ako’y nanalig sa pilosopiyang
+pinanaligan ng kaniyang tauhan doon, ngunit hindi ako naging
+maligaya. Boy, hindi ako nakaramdam ng kasiyahan.
+\n\nBoy: Ano ang nangyari, Tiyo Simon?...
+\n\nTiyo Simon: Lalo akong naging bugnutin, magagalitin. Dahil doon, walang
+natuwang tao sa akin, nawalan ako ng mga kaibigan, hanggang sa
+mapag-isa ako ... hanggang sa isang araw ay nangyari sa akin
+ang isang sakunang nagpamulat sa aking paningin.
+\n\nBoy: Ano iyon, Tiyo Simon...?
+(Uunat sa pagkakaupo si Tiyo Simon at dudukot sa kaniyang lukbutan.
+Maglalabas ng isang bagay na makikilala na isang sirang manikang maliit.)
+\n\nTiyo Simon: Ito ay manika ng isang batang nasagasaan ng trak. Patawid siya
+noon at sa kaniyang pagtakbo ay nailaglag niya ito. Binalikan
+niya ngunit siyang pagdaan ng isang trak at siya’y
+nasagasaan ...Nasagasaan siya, nadurog ang kaniyang isang
+binti, namatay ang bata... namatay...nakita ko, ng dalawang
+mata, ako noo’y naglalakad sa malapit... At aking nilapitan,
+ako ang unang lumapit kaya nakuha ko ang manikang ito at noo’y
+tangang mahigpit ng namatay na bata, na waring ayaw bitiwan
+kahit sa kamatayan...
+\n\nBoy: (Nakamulagat) Ano pa’ng nangyari, Tiyo Simon?
+\n\nTiyo Simon: Kinuha ko nga ang manika, Boy. At noon naganap ang pagbabago sa  aking sarili...sapagkat nang yumuko ako upang damputin ang
+manika ay nakita ko ang isang tahimik at nagtitiwalang ngiti sa  bibig ng patay na bata sa kabila ng pagkadurog ng kaniyang  buto... ngiting tila ba nananalig na siya ay walang  kamatayan...
+(Magbubuntunghinga si Tiyo Simon samantalang patuloy na nakikinig lamang si
+Boy. Muling maririnig ang tunog ng batingaw sa malayo. Higit na malakas at
+madalas, mananatili nang higit na mahabang sandali sa pagtunog, pagkuwa’y
+titigil. Muling magbubuntunghinga si Tiyo Simon.)
+\n\nTiyo Simon: Mula noon, ako’y nag-isip na, Boy. Hindi ko na makalimutan ang
+pangyayaring iyon. Inuwi ko ang manika at iningatan, hindi  inihiwalay sa aking katawan, bilang tagapaalalang lagi sa akin  ng matibay at mataos na pananalig ng isang batang hangggang sa  oras ng kamatayan ay nakangiti pa. At aking tinandaan sa isip:  kailangan ng isang tao ang pananalig, kahit ano, pananalig,  nang sa anong bagay, lalong mabuti kung pananalig kay Bathala,
+kung may panimbulanan siya sa mga sandali ng kalungkutan, ng  sakuna, ng mga kasawian... upang may makapitan siya kung siya’y  iginugupo na ng mga hinanakit sa buhay.  (Mahabang katahimikan ang maghahari. Pagkuwa’y maririnig ang matuling yabag  na papalapit. Susungaw ang mukha ng ina ni Boy sa pinto.)
+\n\nIna: Tayo na, baka wala na tayong datnang misa. . Hinanap ko pa kasi
+ang aking dasalan kaya ako natagalan. Tayo na, Boy...Kuya
+\n\nBoy: (Paluksu-luksong tutunguhin ang pinto) Tayo na, Mama, kanina pa
+nga po tugtog nang tugtog ang kampana, e. Tayo na, Tiyo Simon,
+baka tayo mahuli, tayo na!
+(Muling maririnig ang tugtog ng kampana sa malayo. Nagmamadaling lalabas si
+Boy sa pinto. Lalong magiging madalas ang pagtugtog ng kampana lalong
+magiging malakas, habang bumababa ang tabing)
+"
+                        android:paddingEnd="10dp"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

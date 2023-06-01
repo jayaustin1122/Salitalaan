@@ -9,46 +9,22 @@ import android.view.ViewGroup
 import com.example.salitalaan.PanitikanFragment
 import com.example.salitalaan.R
 import com.example.salitalaan.databinding.DialogBinding
-import com.example.salitalaan.databinding.FragmentManorahBinding
+import com.example.salitalaan.databinding.FragmentKulturaBinding
 
 
-class ManorahFragment : Fragment() {
-    private lateinit var binding: FragmentManorahBinding
+class KulturaFragment : Fragment() {
+    private lateinit var binding : FragmentKulturaBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentManorahBinding.inflate(layoutInflater)
+        binding = FragmentKulturaBinding.inflate(layoutInflater)
         // Inflate the layout for this fragment
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.ermitanyo.setOnClickListener {
-            showErmi()
-        }
-        binding.kinnaree.setOnClickListener {
-            showkinnaree()
-        }
-        binding.lawa.setOnClickListener {
-            showLawa()
-        }
-        binding.lubid.setOnClickListener {
-            showLubid()
-        }
-        binding.matiwasay.setOnClickListener {
-            showMatiwasay()
-        }
-        binding.nakabibighaning.setOnClickListener {
-            showNakaka()
-        }
-        binding.namangha.setOnClickListener {
-            showNamangha()
-        }
-        binding.Panarasi.setOnClickListener {
-            showPanarasi()
-        }
         binding.btnBack.setOnClickListener {
             val fragment = PanitikanFragment()
             val transaction = requireActivity().supportFragmentManager.beginTransaction()
@@ -56,78 +32,77 @@ class ManorahFragment : Fragment() {
             transaction.addToBackStack(null)
             transaction.commit()
         }
+        binding.binhingnakatanim.setOnClickListener {
+            showBinhi()
+        }
+        binding.itinudla.setOnClickListener {
+            showitinudla()
+        }
+        binding.kabutihan.setOnClickListener {
+            showkabutihan()
+        }
+        binding.naguumapaw.setOnClickListener {
+            shownaguumapaw()
+        }
+        binding.pagtalunton.setOnClickListener {
+            showpagtalunton()
+        }
+        binding.patutunguhan.setOnClickListener {
+            showpatutunguhan()
+        }
     }
 
-    private fun showPanarasi() {
+    private fun showitinudla() {
         //binding the dialog xml
         val customDialog: Dialog = Dialog(requireContext())
         var dialogBinding : DialogBinding = DialogBinding.inflate(layoutInflater)
         customDialog.setContentView(dialogBinding.root)
-        dialogBinding.dialog.setText(getString(R.string.panarasi))
+        dialogBinding.dialog.setText(getString(R.string.itinudlangnakaraan))
         customDialog.show()
     }
 
-    private fun showNamangha() {
+    private fun showkabutihan() {
         //binding the dialog xml
         val customDialog: Dialog = Dialog(requireContext())
         var dialogBinding : DialogBinding = DialogBinding.inflate(layoutInflater)
         customDialog.setContentView(dialogBinding.root)
-        dialogBinding.dialog.setText(getString(R.string.namangha))
+        dialogBinding.dialog.setText(getString(R.string.kabutihan))
         customDialog.show()
     }
 
-    private fun showNakaka() {
+    private fun shownaguumapaw() {
         //binding the dialog xml
         val customDialog: Dialog = Dialog(requireContext())
         var dialogBinding : DialogBinding = DialogBinding.inflate(layoutInflater)
         customDialog.setContentView(dialogBinding.root)
-        dialogBinding.dialog.setText(getString(R.string.nakabibighani))
+        dialogBinding.dialog.setText(getString(R.string.naguumapaw))
         customDialog.show()
     }
 
-    private fun showMatiwasay() {
+    private fun showpagtalunton() {
         //binding the dialog xml
         val customDialog: Dialog = Dialog(requireContext())
         var dialogBinding : DialogBinding = DialogBinding.inflate(layoutInflater)
         customDialog.setContentView(dialogBinding.root)
-        dialogBinding.dialog.setText(getString(R.string.matiwasay))
+        dialogBinding.dialog.setText(getString(R.string.pagtalunton))
         customDialog.show()
     }
 
-    private fun showLubid() {
+    private fun showpatutunguhan() {
         //binding the dialog xml
         val customDialog: Dialog = Dialog(requireContext())
         var dialogBinding : DialogBinding = DialogBinding.inflate(layoutInflater)
         customDialog.setContentView(dialogBinding.root)
-        dialogBinding.dialog.setText(getString(R.string.lubid))
+        dialogBinding.dialog.setText(getString(R.string.patutunguhan))
         customDialog.show()
     }
 
-    private fun showLawa() {
+    private fun showBinhi() {
         //binding the dialog xml
         val customDialog: Dialog = Dialog(requireContext())
         var dialogBinding : DialogBinding = DialogBinding.inflate(layoutInflater)
         customDialog.setContentView(dialogBinding.root)
-        dialogBinding.dialog.setText(getString(R.string.lawa))
+        dialogBinding.dialog.setText(getString(R.string.binhingnakatanim))
         customDialog.show()
     }
-
-    private fun showkinnaree() {
-        //binding the dialog xml
-        val customDialog: Dialog = Dialog(requireContext())
-        var dialogBinding : DialogBinding = DialogBinding.inflate(layoutInflater)
-        customDialog.setContentView(dialogBinding.root)
-        dialogBinding.dialog.setText(getString(R.string.kinnaree))
-        customDialog.show()
-    }
-
-    private fun showErmi() {
-        //binding the dialog xml
-        val customDialog: Dialog = Dialog(requireContext())
-        var dialogBinding : DialogBinding = DialogBinding.inflate(layoutInflater)
-        customDialog.setContentView(dialogBinding.root)
-        dialogBinding.dialog.setText(getString(R.string.ermitanyo))
-        customDialog.show()
-    }
-
 }

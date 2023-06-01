@@ -93,7 +93,7 @@ Salin ni Ruth Elynia S. Mabanglo  mula sa sa mga Liham ng isang Prinsesang Javan
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingBottom="20dp"
+                    android:paddingBottom="30dp"
                     android:orientation="vertical">
                     <TextView
                         android:layout_width="match_parent"
@@ -111,20 +111,370 @@ Salin ni Ruth Elynia S. Mabanglo  mula sa sa mga Liham ng isang Prinsesang Javan
                         android:gravity="center"
                         android:orientation="horizontal">
                         <TextView
-                            android:id="@+id/kinnaree"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="Ibig na ibig kong makilala ng isang"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/babaeng"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/blue"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="“babaeng moderno”"
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text=" iyong babaeng malaya, nakapagmamalaki’t makaakit ng aking loob! Iyong masaya, may tiwala sa sarili, masigla’t maagap na hinaharap ang buhay, puno ng tuwa at sigasig, pinagsisikapan hindi lamang ang sariling kapakanan at kundi maging ang kabutihan ng buong sangkatauhan."
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Buong kasabikan kong sinasalubong ang"
+                        android:paddingEnd="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="pagdating ng "/>
+                        <TextView
+                            android:id="@+id/bagong"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/blue"
                             android:fontFamily="@font/medium"
-                            android:text="kinnaree "/>
+                            android:text="bagong panahon;"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="totoong sa puso’t isip ko’y hindi ako nabibilang sa daigdig ng mga Indian, kundi sa piling ng aking mga puting kapatid na babae na tumatanaw sa malayong kanluran."
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Kung pahihintulutan lamang ng mga batas ng aking bayan, wala akong ibig gawin kundi ang ipagkaloob ang sarili sa mga nagtratrabaho;t nagsisikap na bagong kababaihan ng Europe; subalit nakatali ako sa mga lumang tradisyong hindi maaaring suwayin. Balang araw maaaring"
+                        android:paddingEnd="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
                         <TextView
+                            android:id="@+id/lumuwag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="lumuwag ang tali"/>
+                        <TextView
+
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
-                            android:textAlignment="center"
                             android:fontFamily="@font/medium"
-                            android:text="ng Haring Prathum at Reynang"/>
+                            android:text=" at kami’y pawalan, ngunit"/>
+
                     </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="lubhang malayo pa ang panahong iyon. Alam ko, maaaring dumating iyon, ngunit baka pagkatapos pa ng tatlo o apat na henenerasyon. Alam mo ba kung paano mahalin ang bago at batang panahong ito ng buong puso’t kaluluwa kahit nakatali sa lahat ng batas, kaugalian at kumbensyon ng sariling bayan. Tuwirang sumasalungat sa kaunlarang hinahangad ko para sa aking mga kababayan ang lahat ng mga institusyon naming. Wala akong iniisip gabi’t araw kindi ang makagawa ng paraang malabanan ang mga lumang tradisyon naming. Alam kong para sa aking sarili’y magagawa king iwasan o putulin ang mga ito, kaya lamang ay may mga buklod na matibay pa sa alinmang lumanag tradisyon na pumipigil sa akin; at ito ang pagmamahal na inuukol ko sa mga pinagkakautangan ko ng buhay, mga taong nararapat kong pasalamatan sa lahat ng bagay. May karapatan ba akong was akin ang puso ng mga taong walang naibigay sa akin kundi pagmamahal at kabutihan, mga taong nag-alaga sa akin ng buong pagsuyo?
+Ngunit hindi lamang tinig nito ang umaabot sa akin; ang malayo, marikit at bagong-silang na Europe ay nagtutulak sa aking maghangad ng pagbabago sa kasalukuyang kalagayan. Kahit noong musmos pa ako’y may pang-akit na sa aking pandinig ang salitang"
+                        android:paddingEnd="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/emansipasyon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="“emansipasyon”;"/>
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text=" may isang naiibang"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="kabuluhan ito, isang kahulugang hindi maaabot ng aking pang-unawa. Gumigising ito para sa hangarin ang pagsasarili at kalayaan- isang paghahangad na makatayong mag-isa. Ang puso ko’y sinusugatan ng mga kondisyong nakapaligid sa akin at sa iba, buong lungkot na pinag-aalab ang mithiin kong magising ang aking bayan.
+Patuloy na lumapit ang mga tinig na galing sa malayong lupain, umaabot sa akin, at sa kasiyahan ng ilang nagmamahal sa akin at sa kalungkutan ng iba, dala ntio ang binhing sumupling sa aking puso, nag-ugat, sumibol hanggang sa lumakas at sumigla.
+Ngayo’y kailangang sabihin ko ang ilang bagay ukol sa sarili upang magkakilala tayo.
+Panganay ako sa "
+                        android:paddingEnd="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="tatlong babaing anak ng"/>
+
+                        <TextView
+                            android:id="@+id/regent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="Regent"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="ng Japara. Ako’y may anim na kapatid na lalaki at babae. Ang lolo kong si Pangeran Ario Tjondronegoro ng Demak ay isang kilalang lider "
+                        android:paddingEnd="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="ng kilusang"/>
+
+                        <TextView
+                            android:id="@+id/progresibo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="progresibo "/>
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="noong"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="kapanahunan niya. Siya rin ang kaunaunahang regent ng gitnang Java na nagbukas ng pinto para sa mga panauhin mula sa ibayong"
+                        android:paddingEnd="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="dagat-ang"/>
+
+                        <TextView
+                            android:id="@+id/sibilisasyong"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="sibilisasyong "/>
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="sibilisasyong."/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Lahat ng mga anak niya’y may edukasyong European, at halos lahat ng iyon (na ang ilan ay patay na ngayon) ay umiibig o umibig sa kanlurang minana sa kanilang ama; at nagdulot naman ito sa mga anak nila ng uri ng pagpapalaking nagisnan nila mismo. Karamihan sa mga pinsan ko’t nakatatandang kapatid na lalaki ay nag-aral sa Hoogere-Burger School, ang pinakamataas na institusyon ng karunungang matatagpuan dito sa India. Ang bunso sa tatlong nakatatandang kapatid kong lalaki’y tatlong taon na ngayong nag-aaral sa Netherlands at naglilingkod din naman doon bilang sundalo ang dalawa pa. Samantala, kaming mga babae’y bahagya nang magkaroon ng pagkakataong makapag-aral dahil na rin sa kahigpitan n gaming lumang tradisyon at kumbensyon. Labag sa aming kaugaliang pag-aralin ang mga babae, lalo’t kailangang lumabas ng bahay araw-araw para pumasok sa eskwela. Ipinagbabawal ng aming kaugalian na lumabas man lamang ng bahay ang babae. Hindi kami pinapayagang pumunta saan man, liban lamang kung sa paaralan, at ang tanginglugar na pagtuturong maipagmamalaki ng syudad naming na bukas sa mga babae ay ang libreng grammar school ng mga European"
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Nang tumuntong ako ng ikalabindalawang taonng gulang, ako ay itinali sa "
+                        android:paddingEnd="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="bahay-kinailangang "/>
+
+                        <TextView
+                            android:id="@+id/ikahon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="“ikahon”"/>
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="ako. Ikinulong ako at pinagbawalang makipag-uganayan sa mundong nasa labas ng bahay, ang mundong hindi ko na makikita marahil liban kung kasama ko na ang mapapangasawang estranghero, isang di-kilalang lalaking pinili ng mga magulang ko, ang lalaking ipinagkasundo sa akin nang di ko namamalayan. Noong banding huli, nalaman kong tinangka ng mga kaibigan kong European na mabago ang pasyang ito ng mga magulang ko para sa akin, isang musmos pa na nagmamahal sa buhay, subalit wala silang nagawa. Hindi nahikayat ang mga magulang ko; nakulong ako nang tuluyan. Apat na mahahabang taon ang tinagal ko sa pagitan ng makapal na pader, at hindi ko nasilayan minsan man ang mundong nasa labas."
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="\nHindi ko alam kung paano ko pinalipas ang mga oras. Ang tanging kaligayahang naiwan sa aki’y pagbabasa ng mga librong Dutch at ang pakikipagsulatan sa mga kaibigang Dutch na hindi naman ipinagbawal. Ito-ito lamang ang nagiisang liwanag na nagpakulay sa"
+                        android:paddingEnd="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/hungkag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="hungkag "/>
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/medium"
+                            android:text="at kainip-inip na panahong"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text=" iyon, na kung inalis pa sa akin ay lalo nang nagging kaawa-awa ang kalagayan ko. Lalo sigurong nawalan ng kabuluhan ang buhay ko’t kaluluwa. Subalit dumating ang kaibigan ko’t tagapagligtas-ang Diwa ng panahon; umalingawngaw sa lahat ng dako ang mga yabag niya. Nayanig sa paglapit niya ang palalo’t matatag na balangkas ng mga lumang tradisyon. Nabuksan ang mga pintong mahigpit na nakasara, kusa ang iba, ang iba nama’y pilit at bahagya lamang ngunit bumukas pa rin at pinapasok ang mga di-inanyayahang panauhin."
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="\nSa wakas, nakita kong muli ang mundo sa labas nang ako’y maglabing-anim na taon. Salamat sa Diyos! Malalabasan ko ang aking kulungan nang Malaya at hindi nakatali sa isang kung sinong bridegroom. At mabilis pang sumunod ang mga pangyayari nagpabalik sa aming mga babae ng mga nawala naming kalayaan."
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="\nNang sumunod na taon, sa oras ng pagtatalaga sa poder ng bata pang Prinsesa (bilang Reyna Wilhemina ng Netherland), “opisyal” na inihandog sa amin ng mga magulang naming ang aming kalayaan. Sa kauna-unahang pagkakataon sa aming buhay, pinyagan kaming umalis sa bayan naming at pumunta sa siyudad na pinadarausan ng pagdiriwang para sa okasyong iyon. Anong dakila tagumpay iyon! Ang maipakita ng mga kabataang babaeng tulang naming ang sarili sa labas, na imposibleng mangyari noon. Nasindak ang “mundo” nagging usap-usapan ang “krimeng” iyon na dito’y wala pang nakagagawa. Nagsaya an gaming mga kaibigang European, at para naman sa amin, walang reynang yayaman pa sa amin. Subalit hindi pa ako nasisiyahan. LAgi, ibig kong makarating sa malayo, mas malayo. Wala akong hangaring makapamista, o malibang. Hindi iyon ang dahilan ng paghahangad kong magkaroon ng kalayaan. Ibig kong malaya upang makatayo ng mag-isa, mag-aral, hindia para mapailalim sa sinuman, at higit sa lahat, hindi para pag-asawahin nang sapilitan."
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="\ngunit dapat tayong mag-asawa, dapat, dapat. Ang hindi pag-aasawa ang pinakamalaking kasalanang magagawa ng isang babaeng Muslim. Ito ang pinakamalaking maipagkakaloob ng isang katutubong babae sa kanyang pamilya."
+                        android:paddingEnd="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="\nAt ang pag-aasawa para sa amin-mababaw pa ngang ekspresyon ang sabihing miserable. At paano nga ba hindi magkakaganoon, kung tila ginawa lamang para sa lalaki ang mga batas, kung pabor para sa lalaki at hindi para sa babae ang batas at kumbensyon; kung ang lahat ng kaluwaga’y para sa kanya lang?"
+                        android:paddingEnd="10dp"/>
 
                 </LinearLayout>
             </ScrollView>

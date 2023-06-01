@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.salitalaan.PanitikanFragment
 import com.example.salitalaan.R
 import com.example.salitalaan.databinding.DialogBinding
 import com.example.salitalaan.databinding.FragmentAngAmaBinding
@@ -65,6 +66,13 @@ class AngAmaFragment : Fragment() {
         }
         binding.pinagsaluhan.setOnClickListener {
             showPinagsaluhan()
+        }
+        binding.btnBack.setOnClickListener {
+            val fragment = PanitikanFragment()
+            val transaction = requireActivity().supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.fragmentContainerView, fragment)
+            transaction.addToBackStack(null)
+            transaction.commit()
         }
     }
 
