@@ -30,6 +30,13 @@ class MenuFragment : Fragment() {
             transaction.addToBackStack(null)
             transaction.commit()
         }
+        binding.btn2.setOnClickListener {
+            val fragment = SalitaFragment()
+            val transaction = requireActivity().supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.fragmentContainerView, fragment)
+            transaction.addToBackStack(null)
+            transaction.commit()
+        }
     }
 
 }

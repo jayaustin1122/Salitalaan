@@ -21,7 +21,6 @@ class SplashFragment : Fragment() {
             val fragment = MenuFragment()
             val transaction = requireActivity().supportFragmentManager.beginTransaction()
             transaction.replace(R.id.fragmentContainerView, fragment)
-            transaction.addToBackStack(null)
             transaction.commit()
         },3000)
         // Inflate the layout for this fragment

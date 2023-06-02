@@ -80,4 +80,22 @@
     <string name="pagtalunton">pagtahak sa isang landas.</string>
     <string name="patutunguhan">mararating</string>
     <string name="tangisngpamamaalam">pag-iyak; panaghoy.</string>
+
+    <string name="hatol">paghuhusga kapasiyahan</string>
+    <string name="HAPONGHAPO">pagod na pagod</string>
+    <string name="INAARARO">sinasaka</string>
+    <string name="LUMUPASAY">humilata; humiga</string>
+    <string name="MAKAAHON">makaalis sa kinalalagyan</string>
+    <string name="MALUMANAY">dahan-dahan</string>
+    <string name="MAPAOS">mamalat ang boses</string>
+    <string name="NAKADUNGAW">nakasilip; nakatingin</string>
+    <string name="NANGANGAMBA">nag-aalala; nababahala</string>
+    <string name="PAGSUSUMAMO">pagmamakaawa; pakikiusap</string>
+
+    <string name="ARAWDUMUNGAW">magandang panahon</string>
+    <string name="BITUINANGSUMILIP">Nagbibigay liwanag</string>
+    <string name="PUSOYNGUMINGITI">Maligaya</string>
+    <string name="ULILANGDAMO">Nangungulila sa sinisinta</string>
+
+
 </resources>

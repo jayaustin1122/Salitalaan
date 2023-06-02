@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue2"
+    tools:context=".Panitikan.AngAmaFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgBookCover"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/japan"
+        android:scaleType="fitXY"
+        android:translationZ="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/bglogin2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:layout_marginBottom="20dp"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/bold"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="TANKA
+KATAPUSAN NG AKING PAGLALAKBAY
+Ni Oshikochi  Mitsune
+Isinalin sa Filipino ni M.O Jocson"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Napakalayo pa nga
+Wakas ng paglalakbay
+Sa ilalim ng puno
+Tag-init noon
+Gulo ng isip."/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/bold"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Naghihintay Ako
+Ni Prinsesa Nukada
+Isinalin sa Filipino ni M.O Jocson"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Naghihintay ako, oo
+Nanabik ako sa ‘yo.
+Pikit-mata nga ako
+Gulo sa dampi
+Nitong taglagas"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/bold"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="TANKA: ni Leah L. Lidon "/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Gabing naging tahimik
+
+"/>
+                    <TextView
+                        android:id="@+id/bituin"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/blue"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Bituin ang sumilip
+
+"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Bulaklak na sumagi
+Mamasdan saglit
+
+"/>
+                    <TextView
+                        android:id="@+id/pusoy"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/blue"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Puso’y ngumiti
+
+"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/bold"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="HAIKU
+TUTUBI
+Ni Gonzalo K. Flores"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Hila mo’y tabak
+Ang bulaklak nanginig
+Sa paglapit mo."/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/bold"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="ANYAYA
+Ni Gonzalo K. Flores"/>
+                    <TextView
+                        android:id="@+id/ulila"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/blue"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Ulilang damo
+
+"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Sa tahimik na ilog
+Halika, sinta"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/bold"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="HAIKU ni Leah L. Lidon"/>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Dahong sumasayaw
+Hangin ang nagpapagalaw"/>
+                    <TextView
+                        android:id="@+id/araw"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/blue"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="Araw dumungaw
+
+"/>
+                    </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tcTitleDetails"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="TANKA AT HAIKU tula mula sa JAPAN"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/imgBookCover"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

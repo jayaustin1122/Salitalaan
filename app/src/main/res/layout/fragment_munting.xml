@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue2"
+    tools:context=".Panitikan.AngAmaFragment">
+    <TextView
+        android:id="@+id/madeBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="mula sa pelikulang Mongol: The Rise of Genghis Khan
+ni Sergei Bordrov
+Hinalaw ni Mary Grace A. Tabora"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/medium"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tcTitleDetails"
+        app:layout_constraintTop_toBottomOf="@+id/tcTitleDetails" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgBookCover"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/pagsinta"
+        android:scaleType="fitXY"
+        android:translationZ="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar" />
+    <TextView
+        android:id="@+id/tcTitleDetails"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Munting Pagsinta (DULA)"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/imgBookCover"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/bglogin2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:layout_marginBottom="20dp"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:paddingStart="10dp"
+                        android:text="Mga Tauhan:
+\nTemüjin- anak ni Yesügei na mula sa Tribong Borjigin
+\nYesügei- ama ni Temüjin
+\nBorte- isang dalaginding na taga ibang tribo
+\nTagpuan: Kawangis ng madilim na kalangitan ang nadarama ng magiting na mandirigmang naninimdim sa takbo ng kapalarang sinapit na nakatalungko sa isang sulok ng makipot at karima-rimarim na piitan.
+
+\n\nTemüjin: Anong saklap na mapiit sa kulungang malupit? Ito ay silid ng
+kalungkutan.Tila kailan lamang nang kasa-kasama ko si ama…
+\n\nYesügei: Temüjin, bilisan mo na riyan. Kailangan nating magmadali?
+\n\nTemüjin: Bakit ama?
+\n\nYesügei: Malayo ang ating lalakbayin. Kailangang huwag tayong magpatay-.
+patay. Mahalaga ang ating sasadyain.
+\n\nTemüjin: Naguguluhan ako sa iyo ama. Kanina ka pa nagmamadali at
+sinasabing mahalaga ang ating sadya sa ating pupuntahan? Ano ba
+iyon?
+\n\nYesügei: Ika’y siyam na taong gulang na, sa edad mong iyan Temüjin ay
+dapat ka nang pumili ng iyong mapapangasawa.
+\n\nTemüjin: Itay ako’y masyado pang bata para sa bagay na iyan. Ang kasal ay
+sa matatanda lamang.
+\n\nYesügei: Aba’t ang batang ito, hindi naman ibig sabihin na kapag nakapili ka
+na ng babaing pakakasalan mo ay magsasama na kayo. Isang
+simpleng pamimili lamang ng babae ang gagawin mo at pangakong
+siya’y iyong pakakasalan.
+\n\nTemüjin: Ganoon po ba iyon?
+\n\nYesügei: Oo, anak.Tayo’y nabibilang sa Tribong Borjigin kaya’t ikaw ay pipili
+ng babaing mapapangasawa sa Tribong Merit.
+\n\nTemüjin: Bakit sa Tribong Merit siya kailangang magmula? Hindi naman iyon
+ang ating tribo.
+\n\nYesügei: Malaki ang atraso ko sa tribo, kaya’t sa ganitong paraan ako’y
+makababawi sa kanila.
+\n\nTemüjin: Sa tingin mo ba ama sa ating gagawin ay kalilimutan na nila ‘yon
+nang ganoon na lamang.
+\n\nYesügei: Hindi ko alam. Tingnan natin kung ano ang mangyayari. Mas
+mabuting may gawin akong paraan kaysa sa wala.
+\n\nTemüjin: Kung iyan po ang sa tingin ninyo’y tama.
+\n\nTagpo: Sa maliit na nayong liblib na kinatatayuan ng ilang kabahayan.
+\n\nYesügei: Temüjin, magpahinga muna tayo.
+\n\nTemüjin: Mabuti ‘yan ama. Napagod na rin ako. Gagalugarin ko lamang ang paligid.
+\n\nYesügei: Huwag kang lalayo at mag-iingat ka.
+\n\nTagpo: Mapapadpad si Temüjin sa isang dampa kung saan nakatira ang dalaginding na si Borte. Mabibigla siya sa di inaasahang pagbagsak ng pinto ng kanilang kusina na likha ng aksidenteng pagkabuwal ni Temüjin.
+\n\nBorte: Aaay! May magnanakaw!
+\n\nTemüjin: Shhh (Tatakpan ang bibig ni Borte). ‘Wag kang sumigaw, wala
+akong gagawing masama.
+\n\nBorte: (Pipiliting magsalita kahit nakatakip ang bibig.)
+\n\nTemüjin: Tatanggalin ko ang pagkakatakip ng bibig mo kung mangangako
+kang hindi ka na mag-iingay. Magtiwala ka sa akin hindi ako.
+masama (Habang dahan- dahang inaalis ang kamay sa bibig ni
+Borte.)
+\n\nBorte: (Sa isang mahinang tinig) Bakit kita paniniwalaan? Di naman kita
+kilala.
+\n\nTemüjin: Kahit di mo ako kilala kaya kong patunayan sa iyo na ako’y mabuti.
+\n\nBorte: (Mariing pagmamasdan si Temüjin) Aber paano mo patutunayan ‘yang
+sinasabi mo? Sige nga! (Taas noo).
+\n\nTemüjin: Basta ba di mo ako pagtatawanan sa sasabihin ko sa iyong patunay.
+\n\nBorte: Tingnan natin.
+\n\nTemüjin: (Tila seryosong nag-iisip na may ngiti sa labi)
+\n\nBorte: Anong nginingiti mo riyan? Sabi mo ‘wag akong tatawa, ikaw lang pala
+ang tatawa.
+\n\nemüjin: Heto na, handa ka na ba?
+\n\nTemüjin: Heto na, handa ka na ba?
+\n\nBorte: Kanina pa, ang bagal mo naman.
+\n\nTemüjin: Nais ko sanaaaannnng (magkakandautal) sa…sanang ikaw ang
+babaing mapangasawa ko.( Mababa ang tono)
+\n\nBorte: Siraulo ka ba? Niloloko mo ako no? Kabata-bata pa natin.
+\n\nTemüjin: Seryoso ako. Ano payag ka ba?
+\n\nBorte: Ganon-ganon lamang ba iyon?
+\n\nTemüjin: Alam kong mahirap akong paniwalaan, hayaan mong ipaliwanag ko
+sa iyo. Kasama ko si Itay, kami’y papunta sa tribo ng mga Merit
+upang pumili ako ng aking mapapangasawa. Ngunit ikaw ang ibig ko,
+ikaw ang pinipili ko.
+\n\nBorte: Anong mayroon sa akin, bakit ako ang pinili mo?
+\n\nTemüjin: Di ko rin alam. Ang tanging alam ko lamang ay ito ang ibinigay ng
+pagkakataon sa akin. Ikaw ang aking nakita. Kaya naman
+pagbigyan mo na ako. Hindi naman ibig sabihin na pumayag ka ay
+pakakasal na tayo.
+\n\nBorte: (Di pa rin makapaniwala sa bilis ng mga pangyayari) Di ko malaman
+kung ano ang dapat kong sabihin sa iyo. (Nag-aalangan) Pero… sige
+na nga.
+\n\nTemüjin: Salamat sa iyo, ako’y labis mong pinaligaya. Asahan mong hindi ka
+magsisi sa iyong desisyon.
+\n\nBorte: (Nahihiya at halos di makapagsalita) Paano na ngayon?
+\n\nTemüjin: Siyempre tuloy pa rin ang buhay natin. (Masuyo ang pagkakatingin
+kay Borte) Pero darating ang panahon na tayo’y mamumuhay sa
+iisang bubong. Magkatuwang na aarugain ang ating mabubuting
+anak.
+\n\nBorte: Matagal pa iyon.
+\n\nTemüjin: Oo, pangako babalikan kita pagkatapos ng limang taon. Halika
+puntahan natin si Ama. (Kukunin ang kamay ni Borte.)
+\n\nTagpo:Magkahawak kamay na naglalakad sina Temüjin at Borte sa paghahanap sa ama kay Yesügei na kanilang makikita na nakatunghay sa ilog.
+\n\nTemüjin: Ama!
+\n\nYesügeii: (Mapapaharap at magpapalipat-lipat ang tingin sa dalawa pati sa
+kanilang kamay) Anong…Sino siya…Bakit?
+\n\nTemüjin: Ama, siya po ang babaing napili ko. Si Borte.
+\n\nBorte: Magandang hapon po. Kumusta po kayo?
+\n\nYesügei: Pero…
+\n\nTemüjin: (Agarang magsasalita) Paumanhin po sa pagdedesisyon ko nang di
+nagpapaalam sa inyo pero buo po ang loob ko sa aking ginawa. Sana’y maunawaan n’yo po ako.
+\n\nYesügei: Ganang desidido ka na, sino ba ako para di-sumang-ayon sa iyong
+kagustuhan. Ang iyong buhay naman ang nakataya rito. (Matiim na
+titingnan si Borte) Okay lang ba sa iyo?
+\n\nBorte: Opo!
+\n\nYesügei: Kung gayon, halina kayong dalawa at kausapin natin ang mga
+magulang mo Borte.
+Matapos makipagkasundo sa mga magulang ni Borte, ang mag-ama ay naglakbay pauwi sa kanilang dampa sa malayong nayon ng Mongolia. (Si Temüjin ay si Genghis Khan.)"
+                        android:paddingEnd="10dp"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

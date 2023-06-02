@@ -9,9 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.SearchView
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.salitalaan.Panitikan.AngAmaFragment
-import com.example.salitalaan.Panitikan.EstelaFragment
-import com.example.salitalaan.Panitikan.ManorahFragment
+import com.example.salitalaan.Panitikan.*
 import com.example.salitalaan.databinding.AboutAppBinding
 import com.example.salitalaan.databinding.FragmentPanitikanBinding
 import com.example.wika_runungan.adapters.NoliAdapter
@@ -39,16 +37,11 @@ class PanitikanFragment : Fragment() {
             Noli("Kay Estela Zeehandelar (Sanaysay)", R.drawable.sanaysay),
             Noli("Tiyo Simon", R.drawable.kapitan),
             Noli("KULTURA: Ang Pamana ng Nakaraan", R.drawable.pamana),
-            Noli("Sample", R.drawable.kapitan),
-            Noli("KABANATA 7: SUYUAN SA ISANG ASOTEA", R.drawable.seven),
-            Noli("KABANATA 8: MGA ALAALA", R.drawable.alaala),
-            Noli("KABANATA 9: MGA BAGAY-BAGAY SA PALIGID", R.drawable.nine),
-            Noli("KABANATA 10: ANG BAYAN NG SAN DIEGO", R.drawable.ten),
-            Noli("KABANATA 11: MGA HARI-HARIAN", R.drawable.eleven),
-            Noli("KABANATA 12: TODOS LOS SANTOS (ARAW NG MGA PATAY)", R.drawable.patay),
-            Noli("KABANATA 13: MGA BABALA NG BAGYO", R.drawable.terteen),
-            Noli("KABANATA 14: SI TASYO: PILOSOPO O BALIW?", R.drawable.loloko2),
-            Noli("KABANATA 15: ANG MGA SAKRISTAN", R.drawable.sakristan)
+            Noli("ANG HATOL NG KUNEHO", R.drawable.koneho),
+            Noli("TANKA AT HAIKU tula mula sa JAPAN", R.drawable.japan),
+            Noli("SANAYSAY NG TAIWAN", R.drawable.taiwan),
+            Noli("Niyebeng-itim Maikling Kuwento", R.drawable.niyene),
+            Noli("Munting Pagsinta (DULA)", R.drawable.pagsinta)
 
         )
         adapter = NoliAdapter(requireContext(), kabanataLists) { position ->
@@ -71,24 +64,55 @@ class PanitikanFragment : Fragment() {
                 transaction.addToBackStack(null)
                 transaction.commit()
             } else if (position == 3) {
-
+                val fragment = TiyoSimonFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
             } else if (position == 4) {
-
+                val fragment = KulturaFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
             } else if (position == 5) {
-
+                val fragment = HatolFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
             } else if (position == 6) {
-
+                val fragment = TankaFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
             } else if (position == 7) {
 
-
-            } else if (position == 8) {
-
-            } else if (position == 9) {
-
-
-            } else if (position == 10) {
-
+                val fragment = SanaysayNgTaiwanFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
             }
+            else if (position == 8) {
+
+                val fragment = NiyebengFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
+            }
+            else if (position == 9) {
+
+                val fragment = MuntingFragment()
+                val transaction = requireActivity().supportFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragmentContainerView, fragment)
+                transaction.addToBackStack(null)
+                transaction.commit()
+            }
+
+
         }
         binding.recycler.adapter = adapter
         binding.recycler.layoutManager = GridLayoutManager(requireContext(), 2)

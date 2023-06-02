@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue2"
+    tools:context=".Panitikan.AngAmaFragment">
+    <TextView
+        android:id="@+id/madeBy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ang Kababaihan ng Taiwan, Ngayon at Noong Nakaraang 50 Taon  (Sanaysay sa Taiwan)"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/medium"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tcTitleDetails"
+        app:layout_constraintTop_toBottomOf="@+id/tcTitleDetails" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgBookCover"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/taiwan"
+        android:scaleType="fitXY"
+        android:translationZ="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.Avatar" />
+    <TextView
+        android:id="@+id/tcTitleDetails"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="SANAYSAY NG TAIWAN"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/imgBookCover"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:layout_margin="15dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/bglogin2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:layout_marginBottom="20dp"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="30dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Ang bilang ng populasyon ng kababaihan sa mundo ay 51% o 2% na mataas kaysa
+ kalalakihan. Maaaring isipin ng ilan na ang kababaihan ay nakakukuha ng parehong "
+                        android:paddingEnd="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/pagkakataon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="pagkakataon "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text=" at karapatan gaya ng"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="kalalakihan. Ilang kababaihan lamang sa buong mundo ang   nakakakuha ng pantay na"
+                        android:paddingEnd="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/karapatan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="karapatan "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="at paggalang tulad sa kalalakihan."/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Ang tungkulin at   kalagayan ng kababaihan ay unti- unting nagbabago sa nakalipas na 50 taon. Ito ay makikita   sa dalawang kalagayan : una ang pagpapalit ng"
+                        android:paddingEnd="10dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/gampanin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="gampanin "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="ng kababaihan at ang "/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text=" Ngayon, nabago na ang tungkulin ng mga babae at ito ay lalong naging"
+                        android:paddingEnd="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/komplikado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="komplikado "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="Sa  bahay ng mga Taiwanese,"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="sila pa rin ang may pananagutan sa mga gawaing-bahay. Ngunit sa  larangan ng trabaho, inaasahang magagawa nila kung ano ang nagagawa ng kalalakihan. Sa  madaling salita, dalawang mabibigat na tungkulin ang"
+                        android:paddingEnd="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/nakaatang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="nakaatang "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="sa kanilang balikat."/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Ang ikalawang kalagayan ay pinatutunayan ng pagtaas ng kanilang sahod, pagkakataong makapag aral, at mga batas na nangangalaga sa kanila. Karamihan sa mga kompanya ay nagbibigay ng  halaga sa kakayahan ng babae at ang mga kinauukulan ay handang kumuha ng mga babaeng  may kakayahan at masuwelduhan ng mataas. Tumataas ang pagkakataon na umangat ang  babae sa isang kumpanya at nakikita na ring may mga babaing namamahala. Isa pa, tumaas  ang pagkakataon para sa mga babae pagdating sa edukasyon. Ayon sa isang estadistika mula  sa gobyerno, higit na mataas ang bilang ng mga babaing nag-aaral sa kolehiyo kung  ihahambing sa kalalakihan makalipas ang 50 taon. At ang huling kalagayan ay ang  pagbabago ng mga batas para sa pangangalaga sa kababaihan ay nakikita na rin. Halimbawa,  sa Accton Inc., isa sa nangungunang networking hardware manufacturer sa Taiwan, ginawa  nang isang taon ang maternity leave sa halip na 3 buwan lamang. Ang gobyerno ng Taiwan ay  gumagawa na ng batas sa pagkakaroon ng pantay na karapatan upang higit nilang  mapangalagaan ang kababaihan. Bilang pagwawakas, naiiba na ang gampanin ng mga babae  at higit itong"
+                        android:paddingEnd="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/mapanghamon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="mapanghamon "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="kung ihahambing noon."/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="Ang kanilang karapatan at kahalagahan ay  binibigyan na ng pansin. Ngunit hindi ito nangangahulugan na ang mga babae ay tumatanggap  na ng pantay na posisyon at pangangalaga sa lipunan. Mayroon pa ring mga kompanya na`  "
+                        android:paddingEnd="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/makatarungan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue"
+                            android:fontFamily="@font/medium"
+                            android:text="hindi makatarungan "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/medium"
+                            android:text="ang pagtrato sa mga"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/medium"
+                        android:textAlignment="center"
+                        android:paddingStart="10dp"
+                        android:text="babaing lider nito.   Marami pa ring kalalakihan ang nagbibigay ng mabigat na tungkulin sa kanilang asawa  sa tahanan. Ito ay matuwid pa rin sa kanila. Marami pa ring dapat magbago sa kalagayan ng  kababaihan sa Taiwan at malaki ang aking pag-asa na makita ang ganap at pantay na  karapatan nila sa lipunan."
+                        android:paddingEnd="10dp"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

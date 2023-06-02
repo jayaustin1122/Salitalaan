@@ -297,7 +297,7 @@ Kapag umuuwi ang ama ng mas gabi kaysa dati at mas lasing kaysa dati,may pagkaka
                         android:textColor="@color/black"
                         android:textAlignment="center"
                         android:fontFamily="@font/medium"
-                        android:text="@string/b"/>
+                        android:text="gayong pauli-uli tsiyang pinagbabawalan ng ina. Pero ang nakakainis talaga ay ang kaniyang"/>
 
                     <TextView
                         android:id="@+id/halinghing"
@@ -313,7 +313,7 @@ Kapag umuuwi ang ama ng mas gabi kaysa dati at mas lasing kaysa dati,may pagkaka
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
                         android:fontFamily="@font/medium"
-                        android:text="@string/a"/>
+                        android:text="Mahaba at matinis, iyon ay tumatagal ng ilang oras, habang siya ay nakaupo sa bangko sa isang sulok ng bahay, namamaluktot nang pahiga sa banig kasama ang ibang mga bata, na di-makatulog. Walang pasensiya sa kaniya ang pinakamatandang lalaki at babae, na malakas siyang irereklamo sa ina napagagalitan naman siya sa pagod na boses; pero sa gabing naroon ang ama,napapaligiran ng bote ng beer na nakaupo sa mesa, iniingatan nilang mabuti nahindi humalinghing si Mui Mui. Alam nila na ang halinghing niyon ay parang kudkuran na nagpapangilo sa nerbiyos ng ama at ito'y"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
